@@ -1,0 +1,3 @@
+/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles/simple_pdf_viewer.dir
+/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles/edit_cache.dir
+/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_simple_pdf_viewer_FILE /Users/tkmaher/Desktop/projects/pdfproj/build/simple_pdf_viewer)
+set(__QT_DEPLOY_TARGET_simple_pdf_viewer_TYPE EXECUTABLE)
