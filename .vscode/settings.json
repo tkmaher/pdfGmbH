@@ -76,6 +76,9 @@
         "qscrollarea": "cpp",
         "qmessagebox": "cpp",
         "qhboxlayout": "cpp",
-        "qpdfdocument": "cpp"
+        "qpdfdocument": "cpp",
+        "iostream": "cpp",
+        "qmainwindow": "cpp",
+        "qsizef": "cpp"
     }
 }

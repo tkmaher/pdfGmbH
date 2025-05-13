@@ -891,6 +891,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: /Users/tkmaher/Desktop/projects/pdf
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Users/tkmaher/Desktop/projects/pdfproj/appState.h \
   /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.h \
   /opt/homebrew/include/QtCore/QAbstractListModel \
   /opt/homebrew/include/QtCore/QDeadlineTimer \
@@ -991,6 +992,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: /Users/tkmaher/Desktop/projects/pdf
   /opt/homebrew/include/QtCore/qhashfunctions.h \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
+  /opt/homebrew/include/QtCore/qitemselectionmodel.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
   /opt/homebrew/include/QtCore/qjsondocument.h \
@@ -1185,6 +1187,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: /Users/tkmaher/Desktop/projects/pdf
   /opt/homebrew/include/QtPdf/qtpdfglobal.h \
   /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemview.h \
   /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
   /opt/homebrew/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
@@ -1201,6 +1204,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: /Users/tkmaher/Desktop/projects/pdf
   /opt/homebrew/include/QtWidgets/qstyle.h \
   /opt/homebrew/include/QtWidgets/qstyleoption.h \
   /opt/homebrew/include/QtWidgets/qtabbar.h \
+  /opt/homebrew/include/QtWidgets/qtableview.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
@@ -1581,22 +1585,26 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: /Users/tkmaher/Desktop/projects/pdf
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDockWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QFileDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QTextEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qcombobox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdockwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qfiledialog.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h
 
 CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.cpp \
@@ -2589,6 +2597,7 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
   /opt/homebrew/include/QtCore/qhashfunctions.h \
   /opt/homebrew/include/QtCore/qiodevice.h \
   /opt/homebrew/include/QtCore/qiodevicebase.h \
+  /opt/homebrew/include/QtCore/qitemselectionmodel.h \
   /opt/homebrew/include/QtCore/qiterable.h \
   /opt/homebrew/include/QtCore/qiterator.h \
   /opt/homebrew/include/QtCore/qjsondocument.h \
@@ -2783,6 +2792,7 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
   /opt/homebrew/include/QtPdf/qtpdfglobal.h \
   /opt/homebrew/include/QtWidgets/qabstractbutton.h \
   /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h \
+  /opt/homebrew/include/QtWidgets/qabstractitemview.h \
   /opt/homebrew/include/QtWidgets/qabstractscrollarea.h \
   /opt/homebrew/include/QtWidgets/qabstractslider.h \
   /opt/homebrew/include/QtWidgets/qabstractspinbox.h \
@@ -2799,6 +2809,7 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
   /opt/homebrew/include/QtWidgets/qstyle.h \
   /opt/homebrew/include/QtWidgets/qstyleoption.h \
   /opt/homebrew/include/QtWidgets/qtabbar.h \
+  /opt/homebrew/include/QtWidgets/qtableview.h \
   /opt/homebrew/include/QtWidgets/qtabwidget.h \
   /opt/homebrew/include/QtWidgets/qtwidgets-config.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsexports.h \
@@ -3179,32 +3190,40 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
   /opt/homebrew/lib/QtWidgets.framework/Headers/QDockWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QFileDialog \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHBoxLayout \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QTextEdit \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qcombobox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qdockwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qfiledialog.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h
 
 
 /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.cpp:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h:
+
 /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__hash_table:
+/opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h:
+/opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qfiledialog.h:
 
@@ -3217,6 +3236,8 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /opt/homebrew/lib/QtWidgets.framework/Headers/qboxlayout.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QTextEdit:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_sigaltstack.h:
 
@@ -3710,6 +3731,8 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 
 /opt/homebrew/include/QtWidgets/qtwidgets-config.h:
 
+/opt/homebrew/include/QtWidgets/qtableview.h:
+
 /opt/homebrew/include/QtWidgets/qtabbar.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__variant/monostate.h:
@@ -3749,6 +3772,10 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /opt/homebrew/include/QtCore/qiodevicebase.h:
 
 /opt/homebrew/include/QtWidgets/qboxlayout.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/generate_canonical.h:
+
+/opt/homebrew/include/QtWidgets/qabstractitemview.h:
 
 /opt/homebrew/include/QtWidgets/qabstractitemdelegate.h:
 
@@ -3919,10 +3946,6 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /opt/homebrew/lib/QtCore.framework/Headers/qsemaphore.h:
 
 /opt/homebrew/include/QtCore/qvariantanimation.h:
-
-/opt/homebrew/lib/QtGui.framework/Headers/qstylehints.h:
-
-/opt/homebrew/include/QtCore/quuid.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qxpfunctional.h:
 
@@ -4101,6 +4124,12 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /opt/homebrew/include/QtCore/qjsondocument.h:
 
 /opt/homebrew/include/QtCore/qiterator.h:
+
+/opt/homebrew/lib/QtGui.framework/Headers/qstylehints.h:
+
+/opt/homebrew/include/QtCore/quuid.h:
+
+/opt/homebrew/include/QtCore/qitemselectionmodel.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qscreen.h:
 
@@ -4574,6 +4603,8 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 
 /opt/homebrew/lib/QtCore.framework/Headers/qurl.h:
 
+/Users/tkmaher/Desktop/projects/pdfproj/appState.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/optional:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/search_n.h:
@@ -4721,6 +4752,10 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /opt/homebrew/lib/QtCore.framework/Headers/qthread.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/inttypes.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__hash_table:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/machine/_mcontext.h:
 
@@ -5022,8 +5057,6 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/machine/limits.h:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_implicitly_default_constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types.h:
@@ -5187,8 +5220,6 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /opt/homebrew/include/QtGui/qtguiglobal.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/generate_canonical.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_max.h:
 
@@ -5373,8 +5404,6 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/memory_resource:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h:
 
@@ -5739,8 +5768,6 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h:
-
-/opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h:
 
 /opt/homebrew/include/QtWidgets/qabstractspinbox.h:
 
@@ -6256,6 +6283,8 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/in_out_out_result.h:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
 
 /opt/homebrew/include/QtCore/qalgorithms.h:
@@ -6391,5 +6420,7 @@ CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/weak_order.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit/rotate.h:

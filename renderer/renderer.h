@@ -14,8 +14,10 @@
 #include <QPdfDocument>
 #include <QtPdf>
 #include <QSizeF>
+#include <QTableWidget>
 #include <QTextEdit>
+#include <QHeaderView>
 
 #include <iostream>
 
-QScrollArea * open();
+void open(QScrollArea * scrollArea);

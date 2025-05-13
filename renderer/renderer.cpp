@@ -2,38 +2,35 @@
 
 static const int areaWidth = 850;
 static const int areaHeight = 900;
+static const int pageInitWidth = 800;
 
-QScrollArea * open() {
-    QString path = QFileDialog::getOpenFileName(nullptr, "Open PDF", "", "PDF Files (*.pdf)");
-    if (path.isEmpty()) {
-        return nullptr;
-    }
-
-    QPdfDocument *pdf = new QPdfDocument;
-    pdf->load(path);
-
-    QScrollArea *scrollArea = new QScrollArea;
+void displayPage(int page, QScrollArea * scrollArea, QPdfDocument * pdf) {
     QWidget *container = new QWidget;
     QVBoxLayout *layout = new QVBoxLayout(container);
 
-    for (int i = 0; i < pdf->pageCount(); ++i) {
+    QSizeF sz = pdf->pagePointSize(page);
+    sz.setHeight(sz.height() * (double(pageInitWidth) / sz.width()));
+    sz.setWidth(pageInitWidth);
 
-        QSizeF sz = pdf->pagePointSize(i);
-        sz.setHeight(sz.height() * (areaWidth / sz.width()));
-        sz.setWidth(areaWidth);
-
-        QImage image = pdf->render(i, sz.toSize(), QPdfDocumentRenderOptions());
-        QLabel *label = new QLabel;
-        label->setPixmap(QPixmap::fromImage(image));
-        label->setAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
-        layout->addWidget(label);
-    }
+    QImage image = pdf->render(page, sz.toSize(), QPdfDocumentRenderOptions());
+    QLabel *label = new QLabel;
+    label->setPixmap(QPixmap::fromImage(image));
+    label->setAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
+    layout->addWidget(label);
 
     container->setLayout(layout);
     scrollArea->setWidget(container);
     scrollArea->setWidgetResizable(true);
-    scrollArea->resize(850, 900);
+    scrollArea->resize(areaWidth, areaHeight);
     scrollArea->show();
+}
 
-    return scrollArea;
+void open(QScrollArea * scrollArea) {
+    QString path = QFileDialog::getOpenFileName(nullptr, "Open PDF", "", "PDF Files (*.pdf)");
+    if (path.isEmpty()) {
+        return;
+    }
+
+    QPdfDocument *pdf = new QPdfDocument;
+    pdf->load(path);
 }
