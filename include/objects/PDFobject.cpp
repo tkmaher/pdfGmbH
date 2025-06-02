@@ -68,7 +68,11 @@ BookObject::BookObject(string isbn_in) : ISBN(isbn_in) {
     }
 }
 
-PDFobject::PDFobject(QPdfDocument *pdf_in, QString path_in) : pdf(pdf_in), path(path_in) {
+PDFobject::PDFobject(QString path_in) : path(path_in) {
+    if (pdf == nullptr)
+        pdf = new QPdfDocument;
+    pdf->load(path);
+    
     data.append(QPair<QString, QString>("Title", pdf->metaData(QPdfDocument::MetaDataField::Title).toString()));
     data.append(QPair<QString, QString>("Author", pdf->metaData(QPdfDocument::MetaDataField::Author).toString()));
     data.append(QPair<QString, QString>("Keywords", pdf->metaData(QPdfDocument::MetaDataField::Keywords).toString()));
@@ -77,6 +81,9 @@ PDFobject::PDFobject(QPdfDocument *pdf_in, QString path_in) : pdf(pdf_in), path(
     data.append(QPair<QString, QString>("Date Added", QDateTime::currentDateTime().toString()));
     data.append(QPair<QString, QString>("Date Modified", QDateTime::currentDateTime().toString()));
     determineType(pdf);
+    
+    delete pdf;
+    pdf = nullptr;
 }
 
 void PDFobject::displayInfo(QTableWidget *tableWidget) {
@@ -91,6 +98,9 @@ void PDFobject::displayInfo(QTableWidget *tableWidget) {
         tableWidget->setItem(row, 0, keyItem);  // Key Column
         tableWidget->setItem(row, 1, valueItem); // Editable Value Column
         row++;
+
+        delete keyItem;
+        delete valueItem;
     }
 }
 

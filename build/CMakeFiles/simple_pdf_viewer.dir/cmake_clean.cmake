@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o"
+  "CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o.d"
+  "CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o"
+  "CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o.d"
   "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o"
   "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o.d"
-  "CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o"
-  "CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o.d"
   "simple_pdf_viewer"
   "simple_pdf_viewer.pdb"
 )

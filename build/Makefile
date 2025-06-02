@@ -129,6 +129,54 @@ simple_pdf_viewer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/build
 .PHONY : simple_pdf_viewer/fast
 
+include/objects/PDFobject.o: include/objects/PDFobject.cpp.o
+.PHONY : include/objects/PDFobject.o
+
+# target to build an object file
+include/objects/PDFobject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
+.PHONY : include/objects/PDFobject.cpp.o
+
+include/objects/PDFobject.i: include/objects/PDFobject.cpp.i
+.PHONY : include/objects/PDFobject.i
+
+# target to preprocess a source file
+include/objects/PDFobject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.i
+.PHONY : include/objects/PDFobject.cpp.i
+
+include/objects/PDFobject.s: include/objects/PDFobject.cpp.s
+.PHONY : include/objects/PDFobject.s
+
+# target to generate assembly for a file
+include/objects/PDFobject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.s
+.PHONY : include/objects/PDFobject.cpp.s
+
+include/renderer/renderer.o: include/renderer/renderer.cpp.o
+.PHONY : include/renderer/renderer.o
+
+# target to build an object file
+include/renderer/renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o
+.PHONY : include/renderer/renderer.cpp.o
+
+include/renderer/renderer.i: include/renderer/renderer.cpp.i
+.PHONY : include/renderer/renderer.i
+
+# target to preprocess a source file
+include/renderer/renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.i
+.PHONY : include/renderer/renderer.cpp.i
+
+include/renderer/renderer.s: include/renderer/renderer.cpp.s
+.PHONY : include/renderer/renderer.s
+
+# target to generate assembly for a file
+include/renderer/renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.s
+.PHONY : include/renderer/renderer.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -153,30 +201,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-renderer/renderer.o: renderer/renderer.cpp.o
-.PHONY : renderer/renderer.o
-
-# target to build an object file
-renderer/renderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o
-.PHONY : renderer/renderer.cpp.o
-
-renderer/renderer.i: renderer/renderer.cpp.i
-.PHONY : renderer/renderer.i
-
-# target to preprocess a source file
-renderer/renderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.i
-.PHONY : renderer/renderer.cpp.i
-
-renderer/renderer.s: renderer/renderer.cpp.s
-.PHONY : renderer/renderer.s
-
-# target to generate assembly for a file
-renderer/renderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.s
-.PHONY : renderer/renderer.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +210,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... simple_pdf_viewer"
+	@echo "... include/objects/PDFobject.o"
+	@echo "... include/objects/PDFobject.i"
+	@echo "... include/objects/PDFobject.s"
+	@echo "... include/renderer/renderer.o"
+	@echo "... include/renderer/renderer.i"
+	@echo "... include/renderer/renderer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... renderer/renderer.o"
-	@echo "... renderer/renderer.i"
-	@echo "... renderer/renderer.s"
 .PHONY : help
 
 

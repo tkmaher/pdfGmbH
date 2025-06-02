@@ -72,10 +72,38 @@ include CMakeFiles/simple_pdf_viewer.dir/flags.make
 CMakeFiles/simple_pdf_viewer.dir/codegen:
 .PHONY : CMakeFiles/simple_pdf_viewer.dir/codegen
 
+CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o: CMakeFiles/simple_pdf_viewer.dir/flags.make
+CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o: /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.cpp
+CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o: CMakeFiles/simple_pdf_viewer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o -MF CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o.d -o CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o -c /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.cpp
+
+CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.cpp > CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.i
+
+CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.cpp -o CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.s
+
+CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o: CMakeFiles/simple_pdf_viewer.dir/flags.make
+CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o: /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.cpp
+CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o: CMakeFiles/simple_pdf_viewer.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o -MF CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o.d -o CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o -c /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.cpp
+
+CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.cpp > CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.i
+
+CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.cpp -o CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.s
+
 CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: CMakeFiles/simple_pdf_viewer.dir/flags.make
 CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: /Users/tkmaher/Desktop/projects/pdfproj/main.cpp
 CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: CMakeFiles/simple_pdf_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/simple_pdf_viewer.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/simple_pdf_viewer.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simple_pdf_viewer.dir/main.cpp.o -MF CMakeFiles/simple_pdf_viewer.dir/main.cpp.o.d -o CMakeFiles/simple_pdf_viewer.dir/main.cpp.o -c /Users/tkmaher/Desktop/projects/pdfproj/main.cpp
 
 CMakeFiles/simple_pdf_viewer.dir/main.cpp.i: cmake_force
@@ -86,37 +114,26 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simple_pdf_viewer.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tkmaher/Desktop/projects/pdfproj/main.cpp -o CMakeFiles/simple_pdf_viewer.dir/main.cpp.s
 
-CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: CMakeFiles/simple_pdf_viewer.dir/flags.make
-CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.cpp
-CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: CMakeFiles/simple_pdf_viewer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o -MF CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o.d -o CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o -c /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.cpp
-
-CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.cpp > CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.i
-
-CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.cpp -o CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.s
-
 # Object files for target simple_pdf_viewer
 simple_pdf_viewer_OBJECTS = \
-"CMakeFiles/simple_pdf_viewer.dir/main.cpp.o" \
-"CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o"
+"CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o" \
+"CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o" \
+"CMakeFiles/simple_pdf_viewer.dir/main.cpp.o"
 
 # External object files for target simple_pdf_viewer
 simple_pdf_viewer_EXTERNAL_OBJECTS =
 
+simple_pdf_viewer: CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
+simple_pdf_viewer: CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o
 simple_pdf_viewer: CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
-simple_pdf_viewer: CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o
 simple_pdf_viewer: CMakeFiles/simple_pdf_viewer.dir/build.make
 simple_pdf_viewer: /opt/homebrew/lib/QtPdf.framework/Versions/A/QtPdf
 simple_pdf_viewer: /opt/homebrew/lib/QtWidgets.framework/Versions/A/QtWidgets
+simple_pdf_viewer: /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/lib/libcurl.tbd
 simple_pdf_viewer: /opt/homebrew/lib/QtGui.framework/Versions/A/QtGui
 simple_pdf_viewer: /opt/homebrew/lib/QtCore.framework/Versions/A/QtCore
 simple_pdf_viewer: CMakeFiles/simple_pdf_viewer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable simple_pdf_viewer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/tkmaher/Desktop/projects/pdfproj/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable simple_pdf_viewer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simple_pdf_viewer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

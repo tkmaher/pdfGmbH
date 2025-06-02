@@ -1,6 +1,7 @@
 CMakeFiles/simple_pdf_viewer.dir/renderer/renderer.cpp.o: \
   /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.cpp \
   /Users/tkmaher/Desktop/projects/pdfproj/renderer/renderer.h \
+  /Users/tkmaher/Desktop/projects/pdfproj/include/standard.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
   /opt/homebrew/include/QtWidgets/qtwidgetsglobal.h \

@@ -79,6 +79,27 @@
         "qpdfdocument": "cpp",
         "iostream": "cpp",
         "qmainwindow": "cpp",
-        "qsizef": "cpp"
+        "qsizef": "cpp",
+        "regex": "cpp",
+        "forward_list": "cpp",
+        "text_encoding": "cpp",
+        "__node_handle": "cpp",
+        "system_error": "cpp",
+        "__errc": "cpp",
+        "__locale": "cpp",
+        "__mutex_base": "cpp",
+        "any": "cpp",
+        "cctype": "cpp",
+        "clocale": "cpp",
+        "cwctype": "cpp",
+        "future": "cpp",
+        "ios": "cpp",
+        "locale": "cpp",
+        "mutex": "cpp",
+        "source_location": "cpp",
+        "thread": "cpp",
+        "valarray": "cpp",
+        "qlabel": "cpp",
+        "*.inc": "cpp"
     }
 }

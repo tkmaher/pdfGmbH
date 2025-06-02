@@ -1,0 +1,9 @@
+steps
+
+1. scan first n pages (5) for text. If there is none, don't do anything
+
+2. find ISBN/DOI and query using openAPI
+
+    https://openlibrary.org/api/volumes/brief/<type>/<ID>.json
+
+3. if there is no isbn, 

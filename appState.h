@@ -22,10 +22,10 @@ public:
 
     }
 
-    void addRow(QPdfDocument *pdf, QString path) {
+    void addRow(QString path) {
         collection->insertRow(collection->rowCount());
         int row = collection->rowCount()-1;
-        items.emplace_back(pdf, path);
+        items.emplace_back(path);
         auto p = items.back();
         const QString title("Title");
         const QString author("Author");
@@ -33,11 +33,19 @@ public:
         collection->setItem(row, 1, new QTableWidgetItem(p.retrieve(author)));
     }
 
+    int getRowCount() {
+        return collection->rowCount();
+    }
+
     QTableWidget * getCollection() {
         return collection;
     }
 
     PDFobject * getPDF(int index) {
+        if (index < 0 || index >= items.size()) {
+            qDebug() << "Index out of bounds";
+            return nullptr;
+        }
         return &items[index];
     }
 
@@ -120,26 +128,31 @@ private:
     Collection collection;
 
     // for info panel
-    QVBoxLayout *layoutRight;
     QDockWidget *infoPanel;
-    QTableWidget *infoTable;
-    QWidget *infoContent;
+    QTableWidget *infoTable = new QTableWidget(0, 2);;
+    QWidget *infoContent = new QWidget();
+    QVBoxLayout *layoutRight = new QVBoxLayout(infoContent);
+    QLabel *imgLabel = new QLabel;
+    QPdfDocument *doc = new QPdfDocument;
 
     void displayRowInfo(int row, int column) {
-        qDebug() << "Cell clicked at row:" << row << ", column:" << column; // Debugging
         if (infoPanel->isHidden()){
+
+            // TODO: error checking
+            QString path = collection.getPDF(row)->getPath();
+            doc->load(path); // check to see if current pdf is already loaded?
+            QImage image = doc->render(0, QSize(200, 300), QPdfDocumentRenderOptions());
+            imgLabel->setPixmap(QPixmap::fromImage(image));
+            imgLabel->setAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
+            layoutRight->addWidget(imgLabel);
+
             infoPanel->show();
-            infoTable = new QTableWidget(collection.getPDF(row)->getDataSize(), 2);
-            infoContent = new QWidget();
-            layoutRight = new QVBoxLayout(infoContent);
+            infoTable->setRowCount(collection.getPDF(row)->getDataSize());
             layoutRight->addWidget(infoTable);
             infoContent->setLayout(layoutRight);
             infoPanel->setWidget(infoContent);
             collection.getPDF(row)->displayInfo(infoTable);
             infoTable->resizeColumnsToContents();
-
-
-            //getPage(0, collection.getPDF(row)->getPDF(), QSizeF(200, 300));
 
         } else {
             infoPanel->hide();
@@ -152,8 +165,7 @@ private:
             return;
         }
 
-        QPdfDocument *pdf = new QPdfDocument;
-        pdf->load(path);
-        collection.addRow(pdf, path);
+        collection.addRow(path);
+
     }
 };

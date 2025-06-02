@@ -1,7 +1,6 @@
-CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: \
-  /Users/tkmaher/Desktop/projects/pdfproj/main.cpp \
-  /Users/tkmaher/Desktop/projects/pdfproj/appState.h \
-  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h \
+CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o: \
+  /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.cpp \
+  /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/standard.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
@@ -1603,12 +1602,4 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtextedit.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream \
-  /Users/tkmaher/Desktop/projects/pdfproj/include/nlohmann/json.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/forward_list \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/valarray \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/clocale \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/regex \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/deque \
-  /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/iostream

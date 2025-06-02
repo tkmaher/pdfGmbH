@@ -59,12 +59,12 @@ public:
 
     PDFobject() {};
 
-    PDFobject(QPdfDocument *pdf_in, QString path_in);
+    PDFobject(QString path_in);
 
     void displayInfo(QTableWidget *tableWidget);
 
-    QPdfDocument *getPDF() {
-        return pdf;
+    QString getPath() {
+        return path;
     }
 
     QString retrieve(const QString &in) {
@@ -80,7 +80,8 @@ public:
     }
 
     ~PDFobject () {
-        delete pdf;
+        if (pdf != nullptr)
+            delete pdf;
     }
 
     friend class Collection;
