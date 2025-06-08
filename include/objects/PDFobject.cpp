@@ -7,7 +7,23 @@ size_t BookObject::writeCallback(char *contents, size_t size, size_t nmemb, stri
     return total_size;
 }
 
-BookObject::BookObject(string isbn_in) : ISBN(isbn_in) {
+void ParentObject::parseCategory(const QString &key1, const QString &key2, const QString &dataKey, const nlohmann::json &data) {
+    for (auto &i : data[key1])
+        setData(dataKey, to_string(i[key2]).c_str());
+}
+
+BookObject::BookObject(string isbn_in) {
+    setData("Title", "");
+    setData("Subtitle", "");
+    setData("Author", "");
+    setData("Series", "");
+    setData("Publisher", "");
+    setData("Publish location", "");
+    setData("Year", "");
+    setData("Subject", "");
+    setData("Languages", "");
+    setData("ISBN", isbn_in.c_str());
+
     CURL *curl = curl_easy_init();
 
     type = DocType::Book;
@@ -26,38 +42,33 @@ BookObject::BookObject(string isbn_in) : ISBN(isbn_in) {
         }
         try {
             nlohmann::json json_data = nlohmann::json::parse(readBuffer);
+            //qDebug() << json_data.dump(4).c_str();
             json_data = json_data["records"];
             if (json_data.contains("data")) {
                 auto data = json_data["data"];
                 if (data.contains("title")) 
-                    title = data["title"];
+                    setData("Title", to_string(data["title"]).c_str());
                 if (data.contains("subtitle")) 
-                    subtitle = data["subtitle"];
-                if (data.contains("authors")) 
-                    for (auto &i : data["authors"])
-                        authors.push_back(i["name"]);
+                    setData("Subtitle", to_string(data["subtitle"]).c_str());
+                if (data.contains("authors"))
+                    parseCategory("authors", "name", "Author", data);
                 if (data.contains("series")) 
-                    for (auto &i : data["series"])
-                        series.push_back(i["name"]);
+                    parseCategory("series", "name", "Series", data);
                 if (data.contains("publishers")) 
-                    for (auto &i : data["pubishers"])
-                        publishers.push_back(i["name"]);
+                    parseCategory("publishers", "name", "Publisher", data);
                 if (data.contains("publish_places")) 
-                    for (auto &i : data["publish_places"])
-                        pubLocs.push_back(i["name"]);
+                    parseCategory("publish_places", "name", "Publish location", data);
                 if (data.contains("publish_date")) 
-                    pubYear = data["publish_date"];
+                    setData("Year", "publish_date");
                 if (data.contains("subjects")) 
-                    for (auto &i : data["subjects"])
-                        subjects.push_back(i["name"]);
+                    parseCategory("subjects", "name", "Subject", data);
             }
             if (json_data.contains("details")) {
                 auto d1 = json_data["details"];
-                if (d1.contains("details")) {
+                if (d1.contains("details")) {   // BECAUSE OF THE STUPID OPENLIBRARY API
                     auto details = d1["details"];
                     if (details.contains("languages")) 
-                        for (auto &i : details["languages"])
-                            langs.push_back(i["key"]);
+                        parseCategory("languages", "key", "Languages", details);
                 }
             }
         } catch (const nlohmann::json::parse_error& e) {
@@ -66,28 +77,41 @@ BookObject::BookObject(string isbn_in) : ISBN(isbn_in) {
         }
         curl_easy_cleanup(curl);
     }
+
 }
 
 PDFobject::PDFobject(QString path_in) : path(path_in) {
-    if (pdf == nullptr)
-        pdf = new QPdfDocument;
+    QPdfDocument *pdf = new QPdfDocument;
     pdf->load(path);
+
+    setData("Title", pdf->metaData(QPdfDocument::MetaDataField::Title).toString());
+    setData("Author", pdf->metaData(QPdfDocument::MetaDataField::Author).toString());
+    setData("Keywords", pdf->metaData(QPdfDocument::MetaDataField::Keywords).toString());
+    setData("Subject", pdf->metaData(QPdfDocument::MetaDataField::Subject).toString());
+    setData("Pages", QString::number(pdf->pageCount()));
+    setData("Date Added", QDateTime::currentDateTime().toString());
+    setData("Date Modified", QDateTime::currentDateTime().toString());
     
-    data.append(QPair<QString, QString>("Title", pdf->metaData(QPdfDocument::MetaDataField::Title).toString()));
-    data.append(QPair<QString, QString>("Author", pdf->metaData(QPdfDocument::MetaDataField::Author).toString()));
-    data.append(QPair<QString, QString>("Keywords", pdf->metaData(QPdfDocument::MetaDataField::Keywords).toString()));
-    data.append(QPair<QString, QString>("Subject", pdf->metaData(QPdfDocument::MetaDataField::Subject).toString()));
-    data.append(QPair<QString, QString>("Pages", QString::number(pdf->pageCount())));
-    data.append(QPair<QString, QString>("Date Added", QDateTime::currentDateTime().toString()));
-    data.append(QPair<QString, QString>("Date Modified", QDateTime::currentDateTime().toString()));
-    determineType(pdf);
-    
-    delete pdf;
-    pdf = nullptr;
+    QFuture<void> future1 = QtConcurrent::run( handleParsing, this, pdf );
+
+}
+
+PDFobject::PDFobject(QJsonObject json_in) {
+    path = json_in["path"].toString();
+    QJsonArray dataArr = json_in["data"].toArray();
+    for (const QJsonValue &value : dataArr) {
+        QStringList keyValue = value.toString().split('\t');
+        if (keyValue.size() == 2)
+            setData(keyValue[0], keyValue[1]);
+        else if (keyValue.size() == 1)
+            setData(keyValue[0], "");
+    }
+    parent.fromJSON(json_in["parent"].toObject());
 }
 
 void PDFobject::displayInfo(QTableWidget *tableWidget) {
     int row = 0;
+    tableWidget->clear();
     for (auto it = data.begin(); it != data.end(); ++it) {
         QTableWidgetItem *keyItem = new QTableWidgetItem(it->first);
         QTableWidgetItem *valueItem = new QTableWidgetItem(it->second);
@@ -99,9 +123,8 @@ void PDFobject::displayInfo(QTableWidget *tableWidget) {
         tableWidget->setItem(row, 1, valueItem); // Editable Value Column
         row++;
 
-        delete keyItem;
-        delete valueItem;
     }
+
 }
 
 const string PDFobject::getISBN(const string &text) {
@@ -117,6 +140,7 @@ const string PDFobject::getISBN(const string &text) {
             curr = text.substr(pos, 1);
         }
     }
+    isbn = std::regex_replace(isbn, std::regex("[^0-9]"), "");
     return isbn;
 }
 
@@ -128,9 +152,12 @@ void PDFobject::determineType(QPdfDocument *pdf) {
         string text = pdf->getAllText(i).text().toStdString();
         isbn = getISBN(text);
         if (isbn != "") {
-            qDebug() << isbn << "\n";
+            //qDebug() << isbn << "\n";
             parent = BookObject(isbn);
             break;
         }
     }
+
+    delete pdf;
+    pdf = nullptr;
 }

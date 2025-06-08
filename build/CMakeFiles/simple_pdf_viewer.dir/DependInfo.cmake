@@ -9,7 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o.d"
+  "/Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o.d"
+  "/Users/tkmaher/Desktop/projects/pdfproj/include/state/cache.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o.d"
+  "/Users/tkmaher/Desktop/projects/pdfproj/include/ui/infopanel.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/main.cpp" "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o.d"
   )
 

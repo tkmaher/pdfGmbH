@@ -1,4 +1,4 @@
-#include "appState.h"
+#include <state/setup.h>
 
 int main(int argc, char* argv[]) {
     QApplication app(argc, argv);

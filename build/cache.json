@@ -1,0 +1,38 @@
+{
+    "collection": {
+        "/Users/tkmaher/Desktop/pdf/Berkeley George - Three Dialogues between Hylas and Philonous.pdf": {
+            "data": [
+                "Title\tNota Bene-- C:\\EMT\\READY\\HUMETR3  Job  1",
+                "Author\tDefault",
+                "Keywords\t",
+                "Subject\t",
+                "Pages\t69",
+                "Date Added\tSun Jun 8 10:04:34 2025",
+                "Date Modified\tSun Jun 8 10:04:34 2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 0
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/Berkeley George - Three Dialogues between Hylas and Philonous.pdf"
+        },
+        "/Users/tkmaher/Desktop/projects/pdfproj/build/TYWI66HZQGZUJGFREZLY copy.pdf": {
+            "data": [
+                "Title\t3rdWave by Alvin Toffler.doc",
+                "Author\tWilliam R. Bales",
+                "Keywords\t",
+                "Subject\t",
+                "Pages\t448",
+                "Date Added\tSat Jun 7 15:26:52 2025",
+                "Date Modified\tSat Jun 7 15:26:52 2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 0
+            },
+            "path": "/Users/tkmaher/Desktop/projects/pdfproj/build/TYWI66HZQGZUJGFREZLY copy.pdf"
+        }
+    }
+}

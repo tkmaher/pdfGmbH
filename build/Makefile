@@ -153,6 +153,30 @@ include/objects/PDFobject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.s
 .PHONY : include/objects/PDFobject.cpp.s
 
+include/objects/collection.o: include/objects/collection.cpp.o
+.PHONY : include/objects/collection.o
+
+# target to build an object file
+include/objects/collection.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
+.PHONY : include/objects/collection.cpp.o
+
+include/objects/collection.i: include/objects/collection.cpp.i
+.PHONY : include/objects/collection.i
+
+# target to preprocess a source file
+include/objects/collection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.i
+.PHONY : include/objects/collection.cpp.i
+
+include/objects/collection.s: include/objects/collection.cpp.s
+.PHONY : include/objects/collection.s
+
+# target to generate assembly for a file
+include/objects/collection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.s
+.PHONY : include/objects/collection.cpp.s
+
 include/renderer/renderer.o: include/renderer/renderer.cpp.o
 .PHONY : include/renderer/renderer.o
 
@@ -176,6 +200,54 @@ include/renderer/renderer.s: include/renderer/renderer.cpp.s
 include/renderer/renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.s
 .PHONY : include/renderer/renderer.cpp.s
+
+include/state/cache.o: include/state/cache.cpp.o
+.PHONY : include/state/cache.o
+
+# target to build an object file
+include/state/cache.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
+.PHONY : include/state/cache.cpp.o
+
+include/state/cache.i: include/state/cache.cpp.i
+.PHONY : include/state/cache.i
+
+# target to preprocess a source file
+include/state/cache.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.i
+.PHONY : include/state/cache.cpp.i
+
+include/state/cache.s: include/state/cache.cpp.s
+.PHONY : include/state/cache.s
+
+# target to generate assembly for a file
+include/state/cache.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.s
+.PHONY : include/state/cache.cpp.s
+
+include/ui/infopanel.o: include/ui/infopanel.cpp.o
+.PHONY : include/ui/infopanel.o
+
+# target to build an object file
+include/ui/infopanel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
+.PHONY : include/ui/infopanel.cpp.o
+
+include/ui/infopanel.i: include/ui/infopanel.cpp.i
+.PHONY : include/ui/infopanel.i
+
+# target to preprocess a source file
+include/ui/infopanel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.i
+.PHONY : include/ui/infopanel.cpp.i
+
+include/ui/infopanel.s: include/ui/infopanel.cpp.s
+.PHONY : include/ui/infopanel.s
+
+# target to generate assembly for a file
+include/ui/infopanel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.s
+.PHONY : include/ui/infopanel.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -213,9 +285,18 @@ help:
 	@echo "... include/objects/PDFobject.o"
 	@echo "... include/objects/PDFobject.i"
 	@echo "... include/objects/PDFobject.s"
+	@echo "... include/objects/collection.o"
+	@echo "... include/objects/collection.i"
+	@echo "... include/objects/collection.s"
 	@echo "... include/renderer/renderer.o"
 	@echo "... include/renderer/renderer.i"
 	@echo "... include/renderer/renderer.s"
+	@echo "... include/state/cache.o"
+	@echo "... include/state/cache.i"
+	@echo "... include/state/cache.s"
+	@echo "... include/ui/infopanel.o"
+	@echo "... include/ui/infopanel.i"
+	@echo "... include/ui/infopanel.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

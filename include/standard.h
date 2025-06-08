@@ -19,5 +19,11 @@
 #include <QTableWidget>
 #include <QTextEdit>
 #include <QHeaderView>
+#include <QFuture>
+#include <QtConcurrent>
+
+#include <QJsonDocument>
+#include <QJsonObject>
+#include <QFile>
 
 #include <iostream>
