@@ -1,6 +1,15 @@
 #pragma once
 
-#include <objects/collection.h>
+class Collection;
+class PDFobject;
+
+#include <QJsonObject>
+#include <QJsonDocument>
+#include <QFile>
+#include <QMutex>
+#include <QMutexLocker>
+#include <QTableWidget>
+#include <QDebug>
 
 class Cache  {
 
@@ -10,7 +19,6 @@ public:
         QFile file(fileName);
         if (file.exists()) {
             if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
-                qDebug() << "Failed to open file for reading.";
                 return; // Or handle the error appropriately
             }
             QJsonDocument doc = QJsonDocument::fromJson(file.readAll());

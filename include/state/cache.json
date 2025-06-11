@@ -1,0 +1,31 @@
+{
+    "collection": {
+        "": {
+            "data": [
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": ""
+        },
+        "/Users/tkmaher/Desktop/pdf/10.4159_9780674020702-025 2.pdf": {
+            "data": [
+                "Title\t",
+                "Author\t",
+                "Keywords\t",
+                "Subject\t",
+                "Pages\t28",
+                "Date Added\tTue Jun 10 11:28:30 2025",
+                "Date Modified\tTue Jun 10 11:28:30 2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 0
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/10.4159_9780674020702-025 2.pdf"
+        }
+    }
+}

@@ -8,7 +8,7 @@ public:
 
     Collection();
 
-    void addRow(PDFobject &pdf);
+    void addRow(PDFobject *pdf);
 
     void addRow(QString path);
 

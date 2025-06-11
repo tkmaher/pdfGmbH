@@ -16,7 +16,6 @@ QDockWidget * InfoPanel::getInfoPanel() {
 
 void InfoPanel::displayRowInfo(int row, int column, Collection &collection) {
     QString path = collection.getCollection()->item(row, 3)->text();
-    qDebug() << "Displaying info for row:" << row << "column:" << column << "path:" << path;
     if (infoPanel->isHidden() || path != currentPath) {
         // TODO: error checking
         if (path != currentPath) {

@@ -1,4 +1,8 @@
-#pragma once
+#ifndef MY_GLOBAL_H // Header guard to prevent multiple inclusions
+#define MY_GLOBAL_H
+
 #include <state/cache.h>
 
-static Cache appCache;
+extern Cache appCache;
+
+#endif

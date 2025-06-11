@@ -1,83 +1,12 @@
+#include <state/globals.h>
 #include <objects/PDFobject.h>
 #include <curl/curl.h>
 
-size_t BookObject::writeCallback(char *contents, size_t size, size_t nmemb, string *output) {
-    size_t total_size = size * nmemb;
-    output->append(contents, total_size);
-    return total_size;
-}
-
-void ParentObject::parseCategory(const QString &key1, const QString &key2, const QString &dataKey, const nlohmann::json &data) {
-    for (auto &i : data[key1])
-        setData(dataKey, to_string(i[key2]).c_str());
-}
-
-BookObject::BookObject(string isbn_in) {
-    setData("Title", "");
-    setData("Subtitle", "");
-    setData("Author", "");
-    setData("Series", "");
-    setData("Publisher", "");
-    setData("Publish location", "");
-    setData("Year", "");
-    setData("Subject", "");
-    setData("Languages", "");
-    setData("ISBN", isbn_in.c_str());
-
-    CURL *curl = curl_easy_init();
-
-    type = DocType::Book;
-    if (curl) {
-        string readBuffer;
-
-        curl_easy_setopt(curl, CURLOPT_URL, (ISBNendpoint + isbn_in + ".json").c_str());
-        curl_easy_setopt(curl, CURLOPT_USERAGENT, user_agent.c_str());
-
-        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeCallback);
-        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
-
-        CURLcode res = curl_easy_perform(curl);
-        if (res != CURLE_OK) {
-            cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << endl;
-        }
-        try {
-            nlohmann::json json_data = nlohmann::json::parse(readBuffer);
-            //qDebug() << json_data.dump(4).c_str();
-            json_data = json_data["records"];
-            if (json_data.contains("data")) {
-                auto data = json_data["data"];
-                if (data.contains("title")) 
-                    setData("Title", to_string(data["title"]).c_str());
-                if (data.contains("subtitle")) 
-                    setData("Subtitle", to_string(data["subtitle"]).c_str());
-                if (data.contains("authors"))
-                    parseCategory("authors", "name", "Author", data);
-                if (data.contains("series")) 
-                    parseCategory("series", "name", "Series", data);
-                if (data.contains("publishers")) 
-                    parseCategory("publishers", "name", "Publisher", data);
-                if (data.contains("publish_places")) 
-                    parseCategory("publish_places", "name", "Publish location", data);
-                if (data.contains("publish_date")) 
-                    setData("Year", "publish_date");
-                if (data.contains("subjects")) 
-                    parseCategory("subjects", "name", "Subject", data);
-            }
-            if (json_data.contains("details")) {
-                auto d1 = json_data["details"];
-                if (d1.contains("details")) {   // BECAUSE OF THE STUPID OPENLIBRARY API
-                    auto details = d1["details"];
-                    if (details.contains("languages")) 
-                        parseCategory("languages", "key", "Languages", details);
-                }
-            }
-        } catch (const nlohmann::json::parse_error& e) {
-            cerr << "JSON parse error: " << e.what() << endl;
-            cerr << "Failed JSON content:\n" << readBuffer << endl;
-        }
-        curl_easy_cleanup(curl);
-    }
-
+void PDFobject::parse(PDFobject *obj) {
+    QPdfDocument *pdf = new QPdfDocument;
+    pdf->load(obj->getPath());
+    obj->determineType(pdf);
+    appCache.writeOne(*obj);
 }
 
 PDFobject::PDFobject(QString path_in) : path(path_in) {
@@ -91,9 +20,8 @@ PDFobject::PDFobject(QString path_in) : path(path_in) {
     setData("Pages", QString::number(pdf->pageCount()));
     setData("Date Added", QDateTime::currentDateTime().toString());
     setData("Date Modified", QDateTime::currentDateTime().toString());
-    
-    QFuture<void> future1 = QtConcurrent::run( handleParsing, this, pdf );
 
+    delete pdf;
 }
 
 PDFobject::PDFobject(QJsonObject json_in) {
@@ -152,11 +80,13 @@ void PDFobject::determineType(QPdfDocument *pdf) {
         string text = pdf->getAllText(i).text().toStdString();
         isbn = getISBN(text);
         if (isbn != "") {
-            //qDebug() << isbn << "\n";
             parent = BookObject(isbn);
             break;
         }
     }
+
+    if (parent.type == DocType::Unwritten)
+        parent.type = DocType::Null;
 
     delete pdf;
     pdf = nullptr;

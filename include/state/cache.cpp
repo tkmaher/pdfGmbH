@@ -1,12 +1,14 @@
 #include "cache.h"
+#include <objects/collection.h>
 
 void Cache::readAll(Collection &collection) {
     QMutexLocker locker{&cmutex};
     QJsonObject obj = stateJSON["collection"].toObject();
     for (auto it = obj.begin(); it != obj.end(); ++it) {
         PDFobject pdfobj(it->toObject());
-        collection.addRow(pdfobj);
+        collection.addRow(&pdfobj);
     }
+    qDebug() << "Cache read successfully";
 }
 
 void Cache::writeOne(PDFobject &pdfobj) {
@@ -15,6 +17,7 @@ void Cache::writeOne(PDFobject &pdfobj) {
     obj[pdfobj.getPath()] = pdfobj.qJSONify();
     stateJSON["collection"] = obj;
     writeToFile();
+    qDebug() << "Successfully wrote PDFobject to JSON: " << pdfobj.getPath();
 }
 
 void Cache::writeAll(Collection &collection) {

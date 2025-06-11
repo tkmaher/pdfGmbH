@@ -35,8 +35,8 @@ public:
         window->resize(800, 600);
         window->show();
 
-        // instantiate user collection from cache file
-        appCache.readAll(collection);
+        // instantiate user collection from cache file TODO uncomment
+        // appCache.readAll(collection);
     }
 
     ~State() {
@@ -76,4 +76,6 @@ private:
         collection.addRow(path);
         appCache.writeOne(collection.getMap()[path]);
     }
+
+
 };

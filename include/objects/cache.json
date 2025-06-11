@@ -1,0 +1,31 @@
+{
+    "collection": {
+        "/Users/tkmaher/Desktop/projects/pdfproj/build/TYWI66HZQGZUJGFREZLY copy.pdf": {
+            "data": [
+                "Title\t3rdWave by Alvin Toffler.doc",
+                "Author\tWilliam R. Bales",
+                "Keywords\t",
+                "Subject\t",
+                "Pages\t448",
+                "Date Added\tTue Jun 10 12:38:27 2025",
+                "Date Modified\tTue Jun 10 12:38:27 2025"
+            ],
+            "parent": {
+                "data": [
+                    "Title\t",
+                    "Subtitle\t",
+                    "Author\t",
+                    "Series\t",
+                    "Publisher\t",
+                    "Publish location\t",
+                    "Year\t",
+                    "Subject\t",
+                    "Languages\t",
+                    "ISBN\t0553246984"
+                ],
+                "type": 2
+            },
+            "path": "/Users/tkmaher/Desktop/projects/pdfproj/build/TYWI66HZQGZUJGFREZLY copy.pdf"
+        }
+    }
+}

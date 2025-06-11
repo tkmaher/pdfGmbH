@@ -153,6 +153,30 @@ include/objects/PDFobject.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.s
 .PHONY : include/objects/PDFobject.cpp.s
 
+include/objects/ParentObject.o: include/objects/ParentObject.cpp.o
+.PHONY : include/objects/ParentObject.o
+
+# target to build an object file
+include/objects/ParentObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
+.PHONY : include/objects/ParentObject.cpp.o
+
+include/objects/ParentObject.i: include/objects/ParentObject.cpp.i
+.PHONY : include/objects/ParentObject.i
+
+# target to preprocess a source file
+include/objects/ParentObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.i
+.PHONY : include/objects/ParentObject.cpp.i
+
+include/objects/ParentObject.s: include/objects/ParentObject.cpp.s
+.PHONY : include/objects/ParentObject.s
+
+# target to generate assembly for a file
+include/objects/ParentObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.s
+.PHONY : include/objects/ParentObject.cpp.s
+
 include/objects/collection.o: include/objects/collection.cpp.o
 .PHONY : include/objects/collection.o
 
@@ -225,6 +249,30 @@ include/state/cache.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.s
 .PHONY : include/state/cache.cpp.s
 
+include/state/globals.o: include/state/globals.cpp.o
+.PHONY : include/state/globals.o
+
+# target to build an object file
+include/state/globals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/globals.cpp.o
+.PHONY : include/state/globals.cpp.o
+
+include/state/globals.i: include/state/globals.cpp.i
+.PHONY : include/state/globals.i
+
+# target to preprocess a source file
+include/state/globals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/globals.cpp.i
+.PHONY : include/state/globals.cpp.i
+
+include/state/globals.s: include/state/globals.cpp.s
+.PHONY : include/state/globals.s
+
+# target to generate assembly for a file
+include/state/globals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/globals.cpp.s
+.PHONY : include/state/globals.cpp.s
+
 include/ui/infopanel.o: include/ui/infopanel.cpp.o
 .PHONY : include/ui/infopanel.o
 
@@ -285,6 +333,9 @@ help:
 	@echo "... include/objects/PDFobject.o"
 	@echo "... include/objects/PDFobject.i"
 	@echo "... include/objects/PDFobject.s"
+	@echo "... include/objects/ParentObject.o"
+	@echo "... include/objects/ParentObject.i"
+	@echo "... include/objects/ParentObject.s"
 	@echo "... include/objects/collection.o"
 	@echo "... include/objects/collection.i"
 	@echo "... include/objects/collection.s"
@@ -294,6 +345,9 @@ help:
 	@echo "... include/state/cache.o"
 	@echo "... include/state/cache.i"
 	@echo "... include/state/cache.s"
+	@echo "... include/state/globals.o"
+	@echo "... include/state/globals.i"
+	@echo "... include/state/globals.s"
 	@echo "... include/ui/infopanel.o"
 	@echo "... include/ui/infopanel.i"
 	@echo "... include/ui/infopanel.s"
