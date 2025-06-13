@@ -1658,6 +1658,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
@@ -1671,6 +1672,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
@@ -3334,6 +3336,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
@@ -3347,6 +3350,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
@@ -4987,6 +4991,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
@@ -5000,6 +5005,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
@@ -6631,6 +6637,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
@@ -6644,6 +6651,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
@@ -8287,6 +8295,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
@@ -8300,6 +8309,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
@@ -10980,6 +10990,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
@@ -10993,6 +11004,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
@@ -12639,6 +12651,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QHeaderView
  /opt/homebrew/lib/QtWidgets.framework/Headers/QLabel
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
@@ -12652,6 +12665,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qheaderview.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qlabel.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h

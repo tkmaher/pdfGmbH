@@ -1,30 +1,4 @@
 {
     "collection": {
-        "/Users/tkmaher/Desktop/projects/pdfproj/build/TYWI66HZQGZUJGFREZLY copy.pdf": {
-            "data": [
-                "Title\t3rdWave by Alvin Toffler.doc",
-                "Author\tWilliam R. Bales",
-                "Keywords\t",
-                "Subject\t",
-                "Pages\t448",
-                "Date Added\tWed Jun 11 08:56:22 2025",
-                "Date Modified\tWed Jun 11 08:56:22 2025"
-            ],
-            "parent": {
-                "data": [
-                    "Title\tThe third wave",
-                    "Subtitle\t",
-                    "Author\tAlvin Toffler\t",
-                    "Series\t",
-                    "Publisher\tBantam Books\t",
-                    "Publish location\tToronto\tNew York\t",
-                    "Year\t1981",
-                    "Subject\tModern Civilization\tSocial change\tSocial history\tHistoire sociale\tMudanca Social\tToekomstverwachtingen\tChangement social\tSociale verandering\tCivilisation\tPrévision démographique\tCivilisation moderne\t1945-\t1950-\tZukunft\tIndustriegesellschaft\tSociology\tUnited states, social conditions, 1960-\tTechnology, social aspects\t",
-                    "Languages\t/languages/eng\t"
-                ],
-                "type": 2
-            },
-            "path": "/Users/tkmaher/Desktop/projects/pdfproj/build/TYWI66HZQGZUJGFREZLY copy.pdf"
-        }
     }
 }

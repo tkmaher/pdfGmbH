@@ -20,6 +20,19 @@ void Cache::writeOne(PDFobject &pdfobj) {
     qDebug() << "Successfully wrote PDFobject to JSON: " << pdfobj.getPath();
 }
 
+void Cache::deleteOne(QString path) {
+    QMutexLocker locker{&cmutex};
+    QJsonObject obj = stateJSON["collection"].toObject();
+    if (obj.contains(path)) {
+        obj.remove(path);
+        stateJSON["collection"] = obj;
+        writeToFile();
+        qDebug() << "Successfully deleted PDFobject from JSON: " << path;
+    } else {
+        qDebug() << "Key out of bounds: " << path;
+    }
+}
+
 void Cache::writeAll(Collection &collection) {
     QMutexLocker locker{&cmutex};
     QJsonObject obj = stateJSON["collection"].toObject();

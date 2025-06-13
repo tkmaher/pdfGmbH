@@ -3,7 +3,7 @@
 Collection::Collection() {
     collection = new QTableWidget(0, 4);
     QStringList headers;
-    headers << "Title" << "Author" << "Subject" << "Keywords";
+    headers << "Title" << "Author" << "Date Added" << "Path";
     collection->setHorizontalHeaderLabels(headers);
     collection->setSelectionBehavior(QAbstractItemView::SelectRows);
 

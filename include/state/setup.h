@@ -25,9 +25,13 @@ public:
         contentWidget->setLayout(layoutLeft);
         dockWidget->setWidget(contentWidget);
 
-        
+        // create central table
         window->addDockWidget(Qt::RightDockWidgetArea, infoPanel.getInfoPanel());
+        // left click behavior on cell
         QObject::connect(collection.getCollection(), &QTableWidget::cellClicked, this, &State::collectionClick);
+        // right click behavior on cell
+        collection.getCollection()->setContextMenuPolicy(Qt::CustomContextMenu);
+        QObject::connect(collection.getCollection(), &QTableWidget::customContextMenuRequested, this, &State::showContextMenu);
 
         // Add the dock widget to the main window
         window->addDockWidget(Qt::LeftDockWidgetArea, dockWidget);
@@ -36,7 +40,7 @@ public:
         window->show();
 
         // instantiate user collection from cache file TODO uncomment
-        // appCache.readAll(collection);
+        appCache.readAll(collection);
     }
 
     ~State() {
@@ -67,6 +71,25 @@ private:
         infoPanel.displayRowInfo(row, column, collection);
     }
 
+    void showContextMenu(const QPoint& pos) {
+        QTableWidget *tableWidget = collection.getCollection();
+
+        QMenu menu;
+        QAction *deleteAction = menu.addAction("Remove from collection");
+
+        QAction *selectedAction = menu.exec(tableWidget->viewport()->mapToGlobal(pos));
+
+        if (selectedAction == deleteAction) {
+            int row = tableWidget->rowAt(pos.y());
+            if (row >= 0) {
+                // 3 = row of path in collection
+                QString path = tableWidget->item(row, 3)->text();
+                deleteOne(path);
+                tableWidget->removeRow(row);
+            }
+        }
+    }
+
     void importOne() {
         QString path = QFileDialog::getOpenFileName(nullptr, "Open PDF", "", "PDF Files (*.pdf)");
         if (path.isEmpty()) {
@@ -75,6 +98,17 @@ private:
 
         collection.addRow(path);
         appCache.writeOne(collection.getMap()[path]);
+    }
+
+    void deleteOne(QString path) {
+        if (!collection.getMap().contains(path)) {
+            qDebug() << "Key out of bounds";
+            return;
+        }
+        
+        collection.getMap().remove(path);
+        appCache.deleteOne(path);
+
     }
 
 

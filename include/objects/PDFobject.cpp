@@ -7,6 +7,7 @@ void PDFobject::parse(PDFobject *obj) {
     pdf->load(obj->getPath());
     obj->determineType(pdf);
     appCache.writeOne(*obj);
+    delete pdf;
 }
 
 PDFobject::PDFobject(QString path_in) : path(path_in) {

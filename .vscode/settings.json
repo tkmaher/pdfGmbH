@@ -104,6 +104,7 @@
         "qheaderview": "cpp",
         "qtablewidget": "cpp",
         "qfuture": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "qjsondocument": "cpp"
     }
 }

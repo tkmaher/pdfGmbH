@@ -18,9 +18,8 @@ public:
     Cache() {
         QFile file(fileName);
         if (file.exists()) {
-            if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+            if (!file.open(QIODevice::ReadOnly | QIODevice::Text))
                 return; // Or handle the error appropriately
-            }
             QJsonDocument doc = QJsonDocument::fromJson(file.readAll());
             stateJSON = doc.object();
             file.close();
@@ -35,6 +34,8 @@ public:
     void writeOne(PDFobject &pdfobj);
 
     void writeAll(Collection &collection);
+
+    void deleteOne(QString path);
 
     void writeToFile();
 

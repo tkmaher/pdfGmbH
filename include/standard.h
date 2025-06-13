@@ -21,6 +21,7 @@
 #include <QHeaderView>
 #include <QFuture>
 #include <QtConcurrent>
+#include <QMenu>
 
 #include <QJsonDocument>
 #include <QJsonObject>
