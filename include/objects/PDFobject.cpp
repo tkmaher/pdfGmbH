@@ -7,7 +7,6 @@ void PDFobject::parse(PDFobject *obj) {
     pdf->load(obj->getPath());
     obj->determineType(pdf);
     appCache.writeOne(*obj);
-    delete pdf;
 }
 
 PDFobject::PDFobject(QString path_in) : path(path_in) {
@@ -19,10 +18,9 @@ PDFobject::PDFobject(QString path_in) : path(path_in) {
     setData("Keywords", pdf->metaData(QPdfDocument::MetaDataField::Keywords).toString());
     setData("Subject", pdf->metaData(QPdfDocument::MetaDataField::Subject).toString());
     setData("Pages", QString::number(pdf->pageCount()));
-    setData("Date Added", QDateTime::currentDateTime().toString());
-    setData("Date Modified", QDateTime::currentDateTime().toString());
+    setData("Date Added", QDateTime::currentDateTime().toString("MM-dd-yyyy"));
+    setData("Date Modified", QDateTime::currentDateTime().toString("MM-dd-yyyy"));
 
-    delete pdf;
 }
 
 PDFobject::PDFobject(QJsonObject json_in) {

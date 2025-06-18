@@ -15,6 +15,8 @@ Collection::Collection() {
     collection->setColumnWidth(0, 300);
     collection->setColumnWidth(1, 100);
 
+    //collection->setSortingEnabled(true);
+
 }
 
 void Collection::addRow(PDFobject *p) {

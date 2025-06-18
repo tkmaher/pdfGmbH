@@ -13,6 +13,7 @@ public:
 
     void displayRowInfo(int row, int column, Collection &collection);
 
+
 private:
 
     QDockWidget *infoPanel;

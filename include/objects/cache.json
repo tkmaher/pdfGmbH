@@ -1,5 +1,57 @@
 {
     "collection": {
+        "/Users/tkmaher/Desktop/pdf/(Studies in the History of the Language Sciences) Bernd Naumann, Frans Plank, Gottfried Hofbauer - Language and Earth_ Effective Affinities Between the Emerging Sciences of Linguistics and Geology-Joh.pdf": {
+            "data": [
+                "Title\tLanguage and Earth",
+                "Author\tHofbauer, Gottfried.,Plank, Frans.,Naumann, Bernd",
+                "Keywords\t",
+                "Subject\tSIHOLS 66",
+                "Pages\t462",
+                "Date Added\tTue Jun 17 09:48:47 2025",
+                "Date Modified\tTue Jun 17 09:48:47 2025"
+            ],
+            "parent": {
+                "data": [
+                    "Title\tLanguage and earth",
+                    "Subtitle\teffective affinities between the emerging sciences of linguistics and geology",
+                    "Author\tFrans Plank\t",
+                    "Series\t",
+                    "Publisher\tJ. Benjamins\tJohn Benjamins Publishing Company\t",
+                    "Publish location\tAmsterdam\tPhiladellphia\t",
+                    "Year\t1992",
+                    "Subject\tLinguistics\tHistory\tEarth sciences\tGeology, history\t",
+                    "Languages\t/languages/eng\t"
+                ],
+                "type": 2
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/(Studies in the History of the Language Sciences) Bernd Naumann, Frans Plank, Gottfried Hofbauer - Language and Earth_ Effective Affinities Between the Emerging Sciences of Linguistics and Geology-Joh.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/The Lotus Sutra - Tsugunari Kubo.pdf": {
+            "data": [
+                "Title\tLotus Sutra ",
+                "Author\tKubo, Tsugunari; Yuyama, Akira; Kumarajiva (tr) ",
+                "Keywords\tBuddhism, Mahayana, Tripitaka, Sutrapitaka, Saddharmapundarikasutra, Lotus Sutra",
+                "Subject\t(Taisho Volume 9, Number 262)",
+                "Pages\t371",
+                "Date Added\tTue Jun 17 09:49:35 2025",
+                "Date Modified\tTue Jun 17 09:49:35 2025"
+            ],
+            "parent": {
+                "data": [
+                    "Title\tThe Lotus Sutra (Bdk English Tripitaka)",
+                    "Subtitle\t",
+                    "Author\tTsugunari Kubo\tAkira Yuyama\t",
+                    "Series\t",
+                    "Publisher\tNumata Center for Buddhist Translation and Research\tBDK America\t",
+                    "Publish location\t",
+                    "Year\tMarch 23, 2007",
+                    "Subject\tBuddhism, sacred books\tSutras\t",
+                    "Languages\t/languages/eng\t"
+                ],
+                "type": 2
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/The Lotus Sutra - Tsugunari Kubo.pdf"
+        },
         "/Users/tkmaher/Desktop/projects/pdfproj/build/TYWI66HZQGZUJGFREZLY copy.pdf": {
             "data": [
                 "Title\t3rdWave by Alvin Toffler.doc",

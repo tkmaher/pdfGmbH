@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/include/state/cache.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/include/state/globals.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/state/globals.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/state/globals.cpp.o.d"
+  "/Users/tkmaher/Desktop/projects/pdfproj/include/state/setup.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/include/ui/infopanel.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/main.cpp" "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o.d"
   )

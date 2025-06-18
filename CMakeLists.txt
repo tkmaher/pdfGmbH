@@ -16,7 +16,6 @@ file(GLOB SRC
     "*.cpp"
     "*/*.cpp"
     "*/*/*.cpp"
-    
 )
 
 add_executable(simple_pdf_viewer ${SRC})

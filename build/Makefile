@@ -273,6 +273,30 @@ include/state/globals.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/globals.cpp.s
 .PHONY : include/state/globals.cpp.s
 
+include/state/setup.o: include/state/setup.cpp.o
+.PHONY : include/state/setup.o
+
+# target to build an object file
+include/state/setup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o
+.PHONY : include/state/setup.cpp.o
+
+include/state/setup.i: include/state/setup.cpp.i
+.PHONY : include/state/setup.i
+
+# target to preprocess a source file
+include/state/setup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.i
+.PHONY : include/state/setup.cpp.i
+
+include/state/setup.s: include/state/setup.cpp.s
+.PHONY : include/state/setup.s
+
+# target to generate assembly for a file
+include/state/setup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.s
+.PHONY : include/state/setup.cpp.s
+
 include/ui/infopanel.o: include/ui/infopanel.cpp.o
 .PHONY : include/ui/infopanel.o
 
@@ -348,6 +372,9 @@ help:
 	@echo "... include/state/globals.o"
 	@echo "... include/state/globals.i"
 	@echo "... include/state/globals.s"
+	@echo "... include/state/setup.o"
+	@echo "... include/state/setup.i"
+	@echo "... include/state/setup.s"
 	@echo "... include/ui/infopanel.o"
 	@echo "... include/ui/infopanel.i"
 	@echo "... include/ui/infopanel.s"

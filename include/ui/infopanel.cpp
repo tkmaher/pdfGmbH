@@ -13,9 +13,13 @@ QDockWidget * InfoPanel::getInfoPanel() {
     return infoPanel;
 }
 
-
 void InfoPanel::displayRowInfo(int row, int column, Collection &collection) {
-    QString path = collection.getCollection()->item(row, 3)->text();
+    QTableWidget *c = collection.getCollection();
+    if (c->rowCount() == 0 || row < 0 || row >= c->rowCount()) {
+        infoPanel->hide();
+        return;
+    }
+    QString path = c->item(row, 3)->text();
     if (infoPanel->isHidden() || path != currentPath) {
         // TODO: error checking
         if (path != currentPath) {
@@ -45,8 +49,8 @@ void InfoPanel::displayRowInfo(int row, int column, Collection &collection) {
 }
 
 InfoPanel::~InfoPanel() {
-    delete infoPanel;
-    delete infoTable;
-    delete imgLabel;
-    delete doc;
+    // delete infoPanel;
+    // delete infoTable;
+    // delete imgLabel;
+    // delete doc;
 }

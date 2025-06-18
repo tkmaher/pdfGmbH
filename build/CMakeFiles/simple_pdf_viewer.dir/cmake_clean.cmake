@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o.d"
   "CMakeFiles/simple_pdf_viewer.dir/include/state/globals.cpp.o"
   "CMakeFiles/simple_pdf_viewer.dir/include/state/globals.cpp.o.d"
+  "CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o"
+  "CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o.d"
   "CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o"
   "CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o.d"
   "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o"
