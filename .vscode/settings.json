@@ -105,6 +105,7 @@
         "qtablewidget": "cpp",
         "qfuture": "cpp",
         "ranges": "cpp",
-        "qjsondocument": "cpp"
+        "qjsondocument": "cpp",
+        "qjsonobject": "cpp"
     }
 }

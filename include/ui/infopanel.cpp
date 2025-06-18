@@ -19,7 +19,7 @@ void InfoPanel::displayRowInfo(int row, int column, Collection &collection) {
         infoPanel->hide();
         return;
     }
-    QString path = c->item(row, 3)->text();
+    QString path = c->item(row, 2)->text();
     if (infoPanel->isHidden() || path != currentPath) {
         // TODO: error checking
         if (path != currentPath) {

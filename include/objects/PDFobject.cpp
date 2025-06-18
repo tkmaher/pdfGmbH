@@ -74,7 +74,7 @@ const string PDFobject::getISBN(const string &text) {
 void PDFobject::determineType(QPdfDocument *pdf) {
 
     string isbn;
-
+    // TODO: add other types besides book
     for (int i = 0; i < pagesToScan; i++) {
         string text = pdf->getAllText(i).text().toStdString();
         isbn = getISBN(text);

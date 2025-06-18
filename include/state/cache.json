@@ -1,4 +1,21 @@
 {
     "collection": {
+        "/Users/tkmaher/Desktop/pdf/Berkeley George - Three Dialogues between Hylas and Philonous.pdf": {
+            "data": [
+                "Title\tNota Bene-- C:\\EMT\\READY\\HUMETR3  Job  1",
+                "Author\tDefault",
+                "Keywords\t",
+                "Subject\t",
+                "Pages\t69",
+                "Date Added\t06-18-2025",
+                "Date Modified\t06-18-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/Berkeley George - Three Dialogues between Hylas and Philonous.pdf"
+        }
     }
 }

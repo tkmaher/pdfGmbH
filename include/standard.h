@@ -22,6 +22,10 @@
 #include <QFuture>
 #include <QtConcurrent>
 #include <QMenu>
+#include <QProgressBar>
+
+#include <QMutex>
+#include <QMutexLocker>
 
 #include <QJsonDocument>
 #include <QJsonObject>

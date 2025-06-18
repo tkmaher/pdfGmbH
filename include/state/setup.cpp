@@ -45,6 +45,7 @@ State::State() {
 State::~State() { /* probably unnecessary */ }
 
 void State::collectionNav(int currentRow, int currentColumn, int previousRow, int previousColumn) {
+    qDebug() << "Show row: " << currentRow;
     infoPanel.displayRowInfo(currentRow, currentColumn, collection);
 }
 
@@ -58,24 +59,34 @@ void State::showContextMenu(const QPoint& pos) {
     QAction *selectedAction = menu.exec(tableWidget->viewport()->mapToGlobal(pos));
 
     if (selectedAction == deleteAction) {
-        int row = tableWidget->rowAt(pos.y());
-        if (row >= 0) {
-            // 3 = row of path in collection
-            QString path = tableWidget->item(row, 3)->text();
-            deleteOne(path);
+        QList<QTableWidgetItem*> rows = tableWidget->selectedItems();
+        tableWidget->clearSelection();
+        QList<int> rowsToDelete;
+        for (QTableWidgetItem* item : rows) {
+            if (!rowsToDelete.contains(item->row()))
+                rowsToDelete.append(item->row());
+            
+        }
+        sort(rowsToDelete.begin(), rowsToDelete.end(), std::greater<int>());
+
+        for (const auto &row : rowsToDelete) {
+            QString path = tableWidget->item(row, 2)->text();
             tableWidget->removeRow(row);
+            deleteOne(path);
         }
     } else if (selectedAction == finderAction) {
         int row = tableWidget->rowAt(pos.y());
         if (row >= 0) {
-            // 3 = row of path in collection
-            QString path = tableWidget->item(row, 3)->text();
+            // 2 = row of path in collection
+            // TODO: replace this with global
+            QString path = tableWidget->item(row, 2)->text();
             showInFolder(path);
         }
     }
 }
 
 void State::importOne() {
+    //QMutexLocker locker{collection.getMutex()};
     QString path = QFileDialog::getOpenFileName(nullptr, "Open PDF", "", "PDF Files (*.pdf)");
     if (path.isEmpty()) {
         return;
@@ -86,6 +97,7 @@ void State::importOne() {
 }
 
 void State::deleteOne(QString path) {
+    //QMutexLocker locker{collection.getMutex()};
     if (!collection.getMap().contains(path)) {
         qDebug() << "Key out of bounds";
         return;

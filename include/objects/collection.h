@@ -22,9 +22,12 @@ public:
 
     ~Collection();
 
+
 private:
 
     QMap<QString, PDFobject> items;
     QTableWidget *collection;
+    QProgressBar *progressBar;
+
 
 };

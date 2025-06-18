@@ -15,21 +15,21 @@ public:
 protected:
     void dragEnterEvent(QDragEnterEvent *e) override
     {
-        bool valid = true;
+        bool valid = false;
         const QMimeData *mimedata = e->mimeData();
         QList<QUrl> urllist = mimedata->urls();
         for (auto &url : urllist) {
             QFileInfo filename(url.toLocalFile());
             QMimeDatabase db;
             QMimeType mime = db.mimeTypeForFile(filename);
-            if (!fileSet.contains(mime.preferredSuffix())) {
-                valid = false;
+            if (fileSet.contains(mime.preferredSuffix())) {
+                valid = true;
                 break;
             }  
         }
         if (valid) { 
             e->acceptProposedAction();  
-            collection->getCollection()->setStyleSheet("QTableWidget { background-color: gray; }");
+            collection->getCollection()->setStyleSheet("QTableWidget { background-color: lightgray; }");
         } else {
             e->ignore();
         }
@@ -49,7 +49,9 @@ protected:
             QList<QUrl> urllist = mimedata->urls();
             for (auto &url : urllist) {
                 QString filename = url.toLocalFile();
-                if (!filename.isEmpty()) 
+                QMimeDatabase db;
+                QMimeType mime = db.mimeTypeForFile(filename);
+                if (fileSet.contains(mime.preferredSuffix()))
                     collection->addRow(filename);
             }
         }

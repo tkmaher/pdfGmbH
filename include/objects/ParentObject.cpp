@@ -32,8 +32,6 @@ BookObject::BookObject(string isbn_in) {
         }
         try {
             QJsonDocument json_data = QJsonDocument::fromJson(readBuffer.c_str());
-            //if (!json_data.isObject())
-            //    break;
             QJsonObject jData = json_data.object();
             QJsonObject records = jData["records"].toObject().begin().value().toObject(); // ugly
 
@@ -58,9 +56,8 @@ BookObject::BookObject(string isbn_in) {
                     parseCategory("languages", "key", "Languages", details);
                 }
             }
-        } catch (const nlohmann::json::parse_error& e) {
-            cerr << "JSON parse error: " << e.what() << endl;
-            cerr << "Failed JSON content:\n" << readBuffer << endl;
+        } catch (const std::exception &e) {
+            cerr << "Error parsing JSON: " << e.what() << endl;
         }
         curl_easy_cleanup(curl);
     }

@@ -678,7 +678,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__variant/monostate.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__verbose_abort
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/array
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/atomic
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bit
@@ -688,7 +687,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cerrno
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/climits
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/clocale
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/compare
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/concepts
@@ -706,7 +704,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/forward_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/future
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list
@@ -754,7 +751,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_map
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/valarray
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/variant
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version
@@ -918,7 +914,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/tkmaher/Desktop/projects/pdfproj/include/nlohmann/json.hpp
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/standard.h
@@ -1660,6 +1655,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget
@@ -1674,6 +1670,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h
@@ -2356,7 +2353,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__variant/monostate.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__verbose_abort
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/array
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/atomic
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bit
@@ -2366,7 +2362,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cerrno
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/climits
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/clocale
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/compare
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/concepts
@@ -2384,7 +2379,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/forward_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/future
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list
@@ -2432,7 +2426,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_map
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/valarray
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/variant
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version
@@ -2596,7 +2589,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/tkmaher/Desktop/projects/pdfproj/include/nlohmann/json.hpp
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/standard.h
@@ -3338,6 +3330,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget
@@ -3352,6 +3345,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h
@@ -4033,7 +4027,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__variant/monostate.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__verbose_abort
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/array
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/atomic
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bit
@@ -4043,7 +4036,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cerrno
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/climits
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/clocale
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/compare
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/concepts
@@ -4061,7 +4053,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/forward_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/future
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list
@@ -4109,7 +4100,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_map
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/valarray
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/variant
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version
@@ -4254,7 +4244,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/tkmaher/Desktop/projects/pdfproj/include/nlohmann/json.hpp
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.h
@@ -4614,6 +4603,8 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /opt/homebrew/lib/QtCore.framework/Headers/QFuture
  /opt/homebrew/lib/QtCore.framework/Headers/QJsonDocument
  /opt/homebrew/lib/QtCore.framework/Headers/QJsonObject
+ /opt/homebrew/lib/QtCore.framework/Headers/QMutex
+ /opt/homebrew/lib/QtCore.framework/Headers/QMutexLocker
  /opt/homebrew/lib/QtCore.framework/Headers/QSizeF
  /opt/homebrew/lib/QtCore.framework/Headers/q17memory.h
  /opt/homebrew/lib/QtCore.framework/Headers/q20algorithm.h
@@ -4993,6 +4984,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget
@@ -5007,6 +4999,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h
@@ -6260,6 +6253,8 @@ CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o
  /opt/homebrew/lib/QtCore.framework/Headers/QFuture
  /opt/homebrew/lib/QtCore.framework/Headers/QJsonDocument
  /opt/homebrew/lib/QtCore.framework/Headers/QJsonObject
+ /opt/homebrew/lib/QtCore.framework/Headers/QMutex
+ /opt/homebrew/lib/QtCore.framework/Headers/QMutexLocker
  /opt/homebrew/lib/QtCore.framework/Headers/QSizeF
  /opt/homebrew/lib/QtCore.framework/Headers/q17memory.h
  /opt/homebrew/lib/QtCore.framework/Headers/q20algorithm.h
@@ -6639,6 +6634,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget
@@ -6653,6 +6649,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/renderer/renderer.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h
@@ -7334,7 +7331,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__variant/monostate.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__verbose_abort
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/array
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/atomic
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bit
@@ -7344,7 +7340,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cerrno
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/climits
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/clocale
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/compare
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/concepts
@@ -7362,7 +7357,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/forward_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/future
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list
@@ -7410,7 +7404,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_map
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/valarray
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/variant
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version
@@ -7555,7 +7548,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/tkmaher/Desktop/projects/pdfproj/include/nlohmann/json.hpp
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.h
@@ -8297,6 +8289,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget
@@ -8311,6 +8304,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/cache.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h
@@ -10031,7 +10025,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__variant/monostate.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__verbose_abort
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/array
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/atomic
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bit
@@ -10041,7 +10034,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cerrno
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/climits
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/clocale
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/compare
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/concepts
@@ -10059,7 +10051,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/forward_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/future
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list
@@ -10107,7 +10098,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_map
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/valarray
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/variant
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version
@@ -10252,7 +10242,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/tkmaher/Desktop/projects/pdfproj/include/nlohmann/json.hpp
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.h
@@ -10998,6 +10987,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget
@@ -11012,6 +11002,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h
@@ -11693,7 +11684,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__variant/monostate.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__verbose_abort
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/array
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/atomic
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bit
@@ -11703,7 +11693,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cerrno
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/climits
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/clocale
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/compare
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/concepts
@@ -11721,7 +11710,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/forward_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/future
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list
@@ -11769,7 +11757,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_map
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/valarray
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/variant
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version
@@ -11914,7 +11901,6 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/tkmaher/Desktop/projects/pdfproj/include/nlohmann/json.hpp
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.h
@@ -12275,6 +12261,8 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /opt/homebrew/lib/QtCore.framework/Headers/QFuture
  /opt/homebrew/lib/QtCore.framework/Headers/QJsonDocument
  /opt/homebrew/lib/QtCore.framework/Headers/QJsonObject
+ /opt/homebrew/lib/QtCore.framework/Headers/QMutex
+ /opt/homebrew/lib/QtCore.framework/Headers/QMutexLocker
  /opt/homebrew/lib/QtCore.framework/Headers/QSizeF
  /opt/homebrew/lib/QtCore.framework/Headers/q17memory.h
  /opt/homebrew/lib/QtCore.framework/Headers/q20algorithm.h
@@ -12654,6 +12642,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget
@@ -12668,6 +12657,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h
@@ -13349,7 +13339,6 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__variant/monostate.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__verbose_abort
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/algorithm
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/array
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/atomic
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/bit
@@ -13359,7 +13348,6 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cerrno
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/chrono
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/climits
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/clocale
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cmath
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/compare
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/concepts
@@ -13377,7 +13365,6 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/errno.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/exception
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/filesystem
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/forward_list
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/functional
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/future
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/initializer_list
@@ -13425,7 +13412,6 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_map
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/unordered_set
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/utility
- /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/valarray
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/variant
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector
  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version
@@ -13570,7 +13556,6 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
- /Users/tkmaher/Desktop/projects/pdfproj/include/nlohmann/json.hpp
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h
  /Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.h
@@ -14316,6 +14301,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMenu
  /opt/homebrew/lib/QtWidgets.framework/Headers/QMessageBox
+ /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar
  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton
  /opt/homebrew/lib/QtWidgets.framework/Headers/QScrollArea
  /opt/homebrew/lib/QtWidgets.framework/Headers/QTableWidget
@@ -14330,6 +14316,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmenu.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qmessagebox.h
+ /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qscrollarea.h
  /opt/homebrew/lib/QtWidgets.framework/Headers/qtablewidget.h

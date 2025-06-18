@@ -5,4 +5,6 @@
 
 extern Cache appCache;
 
+extern int pathColumn;
+
 #endif
