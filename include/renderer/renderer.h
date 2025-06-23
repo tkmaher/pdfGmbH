@@ -1,7 +1,25 @@
 #include <standard.h>
 
-QLabel *getPage(int page, QPdfDocument * pdf, QSizeF sz);
+class Renderer {
+public:
+    Renderer(QString path);
 
-void displayPage(int page, QDockWidget * scrollArea, QPdfDocument * pdf);
+    // Renders a page of the PDF document and returns a QLabel containing the rendered image.
+    QLabel *getPage(int page, QSizeF sz);
 
-void open(QScrollArea * scrollArea);
+    // Displays a specific page in a scroll area.
+    void displayPage(int page);
+
+    QWidget *getParent() const {
+        return container;
+    }
+
+private:
+
+    QDockWidget * scrollArea;
+    QWidget *container;
+    QVBoxLayout *layout;
+
+    QPdfDocument *pdf;
+
+};

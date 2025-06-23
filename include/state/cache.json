@@ -16,6 +16,23 @@
                 "type": 1
             },
             "path": "/Users/tkmaher/Desktop/pdf/Berkeley George - Three Dialogues between Hylas and Philonous.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/WisdomoftheEast_10210168.pdf": {
+            "data": [
+                "Title\tThe Odes of Confucius",
+                "Author\tL. Cranmer-Byng",
+                "Keywords\t",
+                "Subject\t",
+                "Pages\t58",
+                "Date Added\t06-21-2025",
+                "Date Modified\t06-21-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/WisdomoftheEast_10210168.pdf"
         }
     }
 }

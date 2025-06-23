@@ -23,6 +23,8 @@ private:
     Collection collection;
     InfoPanel infoPanel = InfoPanel(window);
 
+    void openPDF(int row, int column);
+
     void collectionNav(int currentRow, int currentColumn, int previousRow, int previousColumn);
 
     void showContextMenu(const QPoint& pos);

@@ -10238,6 +10238,7 @@ CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o: /Users/tkmaher/Deskt
   /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.h \
+  /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/standard.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/state/cache.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/state/globals.h \
@@ -13550,6 +13551,7 @@ CMakeFiles/simple_pdf_viewer.dir/main.cpp.o: /Users/tkmaher/Desktop/projects/pdf
   /Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.h \
+  /Users/tkmaher/Desktop/projects/pdfproj/include/renderer/renderer.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/standard.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/state/cache.h \
   /Users/tkmaher/Desktop/projects/pdfproj/include/state/globals.h \

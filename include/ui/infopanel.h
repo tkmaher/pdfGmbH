@@ -5,7 +5,7 @@ class InfoPanel {
 
 public:
 
-    InfoPanel(QMainWindow *window);
+    InfoPanel(QWidget *window);
 
     QDockWidget *getInfoPanel();
 

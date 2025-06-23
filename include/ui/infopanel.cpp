@@ -2,7 +2,7 @@
 #include "infopanel.h"
 
 
-InfoPanel::InfoPanel(QMainWindow *window) {
+InfoPanel::InfoPanel(QWidget *window) {
     infoPanel = new QDockWidget("Information", window);
     infoPanel->setAllowedAreas(Qt::LeftDockWidgetArea | Qt::RightDockWidgetArea);
     infoPanel->setFixedWidth(200); 

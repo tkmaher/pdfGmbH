@@ -9,8 +9,7 @@ State::State() {
     importFolder = new QPushButton("Import folder");
 
     //collection panel
-    window->setCentralWidget(collection.getCollection());
-    window->setAcceptDrops(true);
+    //window->setCentralWidget(collection.getCollection());
     
 
     QObject::connect(importFile, &QPushButton::clicked, [&]() {
@@ -25,7 +24,8 @@ State::State() {
 
     // create central table
     window->addDockWidget(Qt::RightDockWidgetArea, infoPanel.getInfoPanel());
-    // left click behavior on cell
+    // double click behavior on cell
+    QObject::connect(collection.getCollection(), &QTableWidget::cellDoubleClicked, this, &State::openPDF);
     // right click behavior on cell
     collection.getCollection()->setContextMenuPolicy(Qt::CustomContextMenu);
     QObject::connect(collection.getCollection(), &QTableWidget::customContextMenuRequested, this, &State::showContextMenu);
@@ -43,6 +43,21 @@ State::State() {
 }
 
 State::~State() { /* probably unnecessary */ }
+
+void State::openPDF(int row, int column) {
+    QTableWidget *tableWidget = collection.getCollection();
+    if (row < 0 || row >= tableWidget->rowCount()) {
+        return; // Invalid row index
+    }
+    
+    QString path = tableWidget->item(row, 2)->text();
+    if (path.isEmpty()) {
+        return; // No path available
+    }
+
+    window->openViewerTab(path);
+
+}
 
 void State::collectionNav(int currentRow, int currentColumn, int previousRow, int previousColumn) {
     qDebug() << "Show row: " << currentRow;
