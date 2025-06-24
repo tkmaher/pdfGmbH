@@ -12,11 +12,9 @@ void PDFobject::parse(PDFobject *obj) {
 PDFobject::PDFobject(QString path_in) : path(path_in) {
     QPdfDocument *pdf = new QPdfDocument;
     pdf->load(path);
+    QFileInfo fileInfo(path);
 
-    setData("Title", pdf->metaData(QPdfDocument::MetaDataField::Title).toString());
-    setData("Author", pdf->metaData(QPdfDocument::MetaDataField::Author).toString());
-    setData("Keywords", pdf->metaData(QPdfDocument::MetaDataField::Keywords).toString());
-    setData("Subject", pdf->metaData(QPdfDocument::MetaDataField::Subject).toString());
+    setData("Filename", fileInfo.fileName());
     setData("Pages", QString::number(pdf->pageCount()));
     setData("Date Added", QDateTime::currentDateTime().toString("MM-dd-yyyy"));
     setData("Date Modified", QDateTime::currentDateTime().toString("MM-dd-yyyy"));

@@ -1,60 +1,32 @@
 {
     "collection": {
-        "/Users/tkmaher/Desktop/pdf/Athanasius_Kirchers_Mundus_subterraneus.pdf": {
+        "/Users/tkmaher/Desktop/pdf/the_flowers_of_evil.pdf": {
             "data": [
-                "Title\t",
-                "Author\tAgustin",
-                "Keywords\t",
-                "Subject\t",
-                "Pages\t39",
-                "Date Added\t06-21-2025",
-                "Date Modified\t06-21-2025"
+                "Filename\tthe_flowers_of_evil.pdf",
+                "Pages\t40",
+                "Date Added\t06-23-2025",
+                "Date Modified\t06-23-2025"
             ],
             "parent": {
                 "data": [
                 ],
                 "type": 1
             },
-            "path": "/Users/tkmaher/Desktop/pdf/Athanasius_Kirchers_Mundus_subterraneus.pdf"
-        },
-        "/Users/tkmaher/Desktop/pdf/lu-xun-diary-of-a-mad-man-1918.pdf": {
-            "data": [
-                "Title\t",
-                "Author\t",
-                "Keywords\t",
-                "Subject\t",
-                "Pages\t8",
-                "Date Added\t06-21-2025",
-                "Date Modified\t06-21-2025"
-            ],
-            "parent": {
-                "data": [
-                ],
-                "type": 1
-            },
-            "path": "/Users/tkmaher/Desktop/pdf/lu-xun-diary-of-a-mad-man-1918.pdf"
+            "path": "/Users/tkmaher/Desktop/pdf/the_flowers_of_evil.pdf"
         },
         "/Users/tkmaher/Desktop/projects/pdfproj/build/TYWI66HZQGZUJGFREZLY copy.pdf": {
             "data": [
-                "Title\t3rdWave by Alvin Toffler.doc",
-                "Author\tWilliam R. Bales",
-                "Keywords\t",
-                "Subject\t",
+                "Filename\tTYWI66HZQGZUJGFREZLY copy.pdf",
                 "Pages\t448",
-                "Date Added\t06-21-2025",
-                "Date Modified\t06-21-2025"
+                "Date Added\t06-23-2025",
+                "Date Modified\t06-23-2025"
             ],
             "parent": {
                 "data": [
                     "Title\tThe third wave",
                     "Subtitle\t",
-                    "Author\tAlvin Toffler\t",
                     "Series\t",
-                    "Publisher\tBantam Books\t",
-                    "Publish location\tToronto\tNew York\t",
-                    "Year\t1981",
-                    "Subject\tModern Civilization\tSocial change\tSocial history\tHistoire sociale\tMudanca Social\tToekomstverwachtingen\tChangement social\tSociale verandering\tCivilisation\tPrévision démographique\tCivilisation moderne\t1945-\t1950-\tZukunft\tIndustriegesellschaft\tSociology\tUnited states, social conditions, 1960-\tTechnology, social aspects\t",
-                    "Languages\t/languages/eng\t"
+                    "Year\t1981"
                 ],
                 "type": 2
             },

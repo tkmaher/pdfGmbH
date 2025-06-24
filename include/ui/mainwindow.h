@@ -11,25 +11,28 @@ public:
         setAcceptDrops(true);
 
         QTabWidget *tabWidget = new QTabWidget(this);
+        tabWidget->setTabsClosable(true);
+        tabWidget->setMovable(true);
+        connect(tabWidget, &QTabWidget::tabCloseRequested, tabWidget, &QTabWidget::removeTab);
         setCentralWidget(tabWidget);
 
         // Create Page 1
         QWidget *page1 = new QWidget();
         QVBoxLayout *layout1 = new QVBoxLayout(page1);
         layout1->addWidget(collection->getCollection());
-        tabWidget->addTab(page1, "Tab 1");
+        tabWidget->addTab(page1, "Collection");
 
-
+        tabWidget->tabBar()->tabButton(0, QTabBar::LeftSide)->hide();
     }
 
-    void openViewerTab(const QString &path)
+    void openViewerTab(const QString &path, const QString &name)
     {
         QTabWidget *tabWidget = qobject_cast<QTabWidget *>(centralWidget());
         if (!tabWidget) return;
 
         // Check if the tab already exists
         for (int i = 0; i < tabWidget->count(); ++i) {
-            if (tabWidget->tabText(i) == path) {
+            if (tabWidget->tabText(i) == name) {
                 tabWidget->setCurrentIndex(i);
                 return;
             }
@@ -40,7 +43,7 @@ public:
         QVBoxLayout *layout = new QVBoxLayout(viewerTab);
         Renderer r(path);
         layout->addWidget(r.getParent());
-        tabWidget->addTab(viewerTab, path);
+        tabWidget->addTab(viewerTab, name);
         tabWidget->setCurrentWidget(viewerTab);
     }
 

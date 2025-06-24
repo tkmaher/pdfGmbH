@@ -32,7 +32,7 @@ void Collection::addRow(PDFobject *p) {
     int row = collection->rowCount()-1;    
     items[path] = *p;
     getPDF(path); 
-    collection->setItem(row, 0, new QTableWidgetItem(p->retrieve("Title")));
+    collection->setItem(row, 0, new QTableWidgetItem(p->retrieve("Filename")));
     collection->setItem(row, 1, new QTableWidgetItem(p->retrieve("Date Added")));
     collection->setItem(row, 2, new QTableWidgetItem(p->getPath()));
 
@@ -48,8 +48,8 @@ void Collection::addRow(QString path) {
     int row = collection->rowCount()-1;    
     items[path] = PDFobject(path);
     PDFobject *p = &items[path];
-    collection->setItem(row, 0, new QTableWidgetItem(p->retrieve("Title")));
-    collection->setItem(row, 1, new QTableWidgetItem(p->retrieve("Author")));
+    collection->setItem(row, 0, new QTableWidgetItem(p->retrieve("Filename")));
+    collection->setItem(row, 1, new QTableWidgetItem(p->retrieve("Date Added")));
     collection->setItem(row, 2, new QTableWidgetItem(p->getPath()));
     // Start parsing the PDF in a separate thread
     QFuture<void> future1 = QtConcurrent::run( PDFobject::parse, &items[path] );

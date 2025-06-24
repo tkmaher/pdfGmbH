@@ -55,7 +55,9 @@ void State::openPDF(int row, int column) {
         return; // No path available
     }
 
-    window->openViewerTab(path);
+    QString name = tableWidget->item(row, 0)->text();
+
+    window->openViewerTab(path, name);
 
 }
 
