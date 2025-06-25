@@ -35,7 +35,7 @@ State::State() {
     // Add the dock widget to the main window
     window->addDockWidget(Qt::LeftDockWidgetArea, dockWidget);
     
-    window->resize(800, 600);
+    window->resize(1200, 800);
     window->show();
 
     // instantiate user collection from cache file TODO uncomment

@@ -3,6 +3,10 @@ project(simple_pdf_viewer)
 
 set(CMAKE_CXX_STANDARD 17)
 
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+set(CMAKE_AUTOUIC ON)
+
 find_package(Qt6 REQUIRED COMPONENTS Widgets)
 find_package(Qt6 REQUIRED COMPONENTS Pdf)
 find_package(CURL REQUIRED)

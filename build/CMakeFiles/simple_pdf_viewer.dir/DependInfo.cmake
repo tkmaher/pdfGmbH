@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "simple_pdf_viewer_autogen/timestamp" "custom" "simple_pdf_viewer_autogen/deps"
   "/Users/tkmaher/Desktop/projects/pdfproj/include/objects/PDFobject.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/objects/PDFobject.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/include/objects/ParentObject.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/objects/ParentObject.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/include/objects/collection.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/objects/collection.cpp.o.d"
@@ -17,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/tkmaher/Desktop/projects/pdfproj/include/state/setup.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/state/setup.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/include/ui/infopanel.cpp" "CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/include/ui/infopanel.cpp.o.d"
   "/Users/tkmaher/Desktop/projects/pdfproj/main.cpp" "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/main.cpp.o.d"
+  "/Users/tkmaher/Desktop/projects/pdfproj/build/simple_pdf_viewer_autogen/mocs_compilation.cpp" "CMakeFiles/simple_pdf_viewer.dir/simple_pdf_viewer_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/simple_pdf_viewer.dir/simple_pdf_viewer_autogen/mocs_compilation.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -23,6 +23,8 @@
 #include <QtConcurrent>
 #include <QMenu>
 #include <QProgressBar>
+#include <QToolBar>
+#include <QIcon>
 
 #include <QMutex>
 #include <QMutexLocker>

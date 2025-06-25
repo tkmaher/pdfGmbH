@@ -2,13 +2,10 @@
     "collection": {
         "/Users/tkmaher/Desktop/pdf/(Studies in the History of the Language Sciences) Bernd Naumann, Frans Plank, Gottfried Hofbauer - Language and Earth_ Effective Affinities Between the Emerging Sciences of Linguistics and Geology-Joh.pdf": {
             "data": [
-                "Title\tLanguage and Earth",
-                "Author\tHofbauer, Gottfried.,Plank, Frans.,Naumann, Bernd",
-                "Keywords\t",
-                "Subject\tSIHOLS 66",
+                "Filename\t(Studies in the History of the Language Sciences) Bernd Naumann, Frans Plank, Gottfried Hofbauer - Language and Earth_ Effective Affinities Between the Emerging Sciences of Linguistics and Geology-Joh.pdf",
                 "Pages\t462",
-                "Date Added\t06-21-2025",
-                "Date Modified\t06-21-2025"
+                "Date Added\t06-25-2025",
+                "Date Modified\t06-25-2025"
             ],
             "parent": {
                 "data": [
@@ -25,6 +22,34 @@
                 "type": 2
             },
             "path": "/Users/tkmaher/Desktop/pdf/(Studies in the History of the Language Sciences) Bernd Naumann, Frans Plank, Gottfried Hofbauer - Language and Earth_ Effective Affinities Between the Emerging Sciences of Linguistics and Geology-Joh.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/9780822398516-004.pdf": {
+            "data": [
+                "Filename\t9780822398516-004.pdf",
+                "Pages\t34",
+                "Date Added\t06-25-2025",
+                "Date Modified\t06-25-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/9780822398516-004.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/WisdomoftheEast_10210168.pdf": {
+            "data": [
+                "Filename\tWisdomoftheEast_10210168.pdf",
+                "Pages\t58",
+                "Date Added\t06-24-2025",
+                "Date Modified\t06-24-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/WisdomoftheEast_10210168.pdf"
         }
     }
 }

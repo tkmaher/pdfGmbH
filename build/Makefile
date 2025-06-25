@@ -129,6 +129,32 @@ simple_pdf_viewer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/build
 .PHONY : simple_pdf_viewer/fast
 
+#=============================================================================
+# Target rules for targets named simple_pdf_viewer_autogen_timestamp_deps
+
+# Build rule for target.
+simple_pdf_viewer_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_pdf_viewer_autogen_timestamp_deps
+.PHONY : simple_pdf_viewer_autogen_timestamp_deps
+
+# fast build rule for target.
+simple_pdf_viewer_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer_autogen_timestamp_deps.dir/build.make CMakeFiles/simple_pdf_viewer_autogen_timestamp_deps.dir/build
+.PHONY : simple_pdf_viewer_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named simple_pdf_viewer_autogen
+
+# Build rule for target.
+simple_pdf_viewer_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_pdf_viewer_autogen
+.PHONY : simple_pdf_viewer_autogen
+
+# fast build rule for target.
+simple_pdf_viewer_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer_autogen.dir/build.make CMakeFiles/simple_pdf_viewer_autogen.dir/build
+.PHONY : simple_pdf_viewer_autogen/fast
+
 include/objects/PDFobject.o: include/objects/PDFobject.cpp.o
 .PHONY : include/objects/PDFobject.o
 
@@ -345,6 +371,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+simple_pdf_viewer_autogen/mocs_compilation.o: simple_pdf_viewer_autogen/mocs_compilation.cpp.o
+.PHONY : simple_pdf_viewer_autogen/mocs_compilation.o
+
+# target to build an object file
+simple_pdf_viewer_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/simple_pdf_viewer_autogen/mocs_compilation.cpp.o
+.PHONY : simple_pdf_viewer_autogen/mocs_compilation.cpp.o
+
+simple_pdf_viewer_autogen/mocs_compilation.i: simple_pdf_viewer_autogen/mocs_compilation.cpp.i
+.PHONY : simple_pdf_viewer_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+simple_pdf_viewer_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/simple_pdf_viewer_autogen/mocs_compilation.cpp.i
+.PHONY : simple_pdf_viewer_autogen/mocs_compilation.cpp.i
+
+simple_pdf_viewer_autogen/mocs_compilation.s: simple_pdf_viewer_autogen/mocs_compilation.cpp.s
+.PHONY : simple_pdf_viewer_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+simple_pdf_viewer_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_pdf_viewer.dir/build.make CMakeFiles/simple_pdf_viewer.dir/simple_pdf_viewer_autogen/mocs_compilation.cpp.s
+.PHONY : simple_pdf_viewer_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -353,6 +403,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... simple_pdf_viewer_autogen"
+	@echo "... simple_pdf_viewer_autogen_timestamp_deps"
 	@echo "... simple_pdf_viewer"
 	@echo "... include/objects/PDFobject.o"
 	@echo "... include/objects/PDFobject.i"
@@ -381,6 +433,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... simple_pdf_viewer_autogen/mocs_compilation.o"
+	@echo "... simple_pdf_viewer_autogen/mocs_compilation.i"
+	@echo "... simple_pdf_viewer_autogen/mocs_compilation.s"
 .PHONY : help
 
 

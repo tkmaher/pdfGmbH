@@ -39,12 +39,12 @@ public:
         }
 
         // Create a new tab for the PDF viewer
-        QWidget *viewerTab = new QWidget();
-        QVBoxLayout *layout = new QVBoxLayout(viewerTab);
-        Renderer r(path);
-        layout->addWidget(r.getParent());
-        tabWidget->addTab(viewerTab, name);
-        tabWidget->setCurrentWidget(viewerTab);
+        renderers.append(std::make_unique<Renderer>(path));
+
+        tabWidget->addTab(renderers.back()->getParent(), name);
+        tabWidget->setCurrentWidget(renderers.back()->getParent());
+
+        connect(tabWidget, &QTabWidget::tabCloseRequested, this, &MainWindow::handleTabCloseRequest);
     }
 
     virtual ~MainWindow() {};
@@ -96,10 +96,24 @@ protected:
 
 private:
 
+    void handleTabCloseRequest(int index) {
+        QTabWidget *tabWidget = qobject_cast<QTabWidget *>(centralWidget());
+        if (!tabWidget || index < 0 || index >= tabWidget->count()) return;
+
+        QString name = tabWidget->tabText(index);
+        for (int i = 0; i < renderers.size(); ++i) {
+            if (renderers[i]->getName() == name) {
+                renderers.removeAt(i);
+                break;
+            }
+        }
+        tabWidget->removeTab(index);
+    }
+
     Collection *collection;
 
     // TODO: add more extensions
     QSet<QString> fileSet = {"pdf", "PDF", "Pdf"};
-
+    QList<std::shared_ptr<Renderer>> renderers;
 
 };
