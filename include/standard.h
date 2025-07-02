@@ -25,6 +25,7 @@
 #include <QProgressBar>
 #include <QToolBar>
 #include <QIcon>
+#include <QGestureEvent>
 
 #include <QMutex>
 #include <QMutexLocker>

@@ -106,6 +106,7 @@
         "qfuture": "cpp",
         "ranges": "cpp",
         "qjsondocument": "cpp",
-        "qjsonobject": "cpp"
+        "qjsonobject": "cpp",
+        "qprogressbar": "cpp"
     }
 }
