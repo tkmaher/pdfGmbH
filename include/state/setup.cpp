@@ -16,9 +16,14 @@ State::State() {
         importOne();
     });
 
+    QObject::connect(importFolder, &QPushButton::clicked, [&]() {
+        importMany();
+    });
+
     QWidget *contentWidget = new QWidget();
     layoutLeft = new QVBoxLayout(contentWidget);
     layoutLeft->addWidget(importFile);
+    layoutLeft->addWidget(importFolder);
     contentWidget->setLayout(layoutLeft);
     dockWidget->setWidget(contentWidget);
 
@@ -105,12 +110,26 @@ void State::showContextMenu(const QPoint& pos) {
 void State::importOne() {
     //QMutexLocker locker{collection.getMutex()};
     QString path = QFileDialog::getOpenFileName(nullptr, "Open PDF", "", "PDF Files (*.pdf)");
-    if (path.isEmpty()) {
+    if (path.isEmpty())
         return;
-    }
 
     collection.addRow(path);
     appCache.writeOne(collection.getMap()[path]);
+}
+
+void State::importMany() {
+    //QMutexLocker locker{collection.getMutex()};
+    QString path = QFileDialog::getExistingDirectory(nullptr, "Select Directory", "", QFileDialog::ShowDirsOnly | QFileDialog::DontResolveSymlinks);
+    if (path.isEmpty())
+        return;
+    QDirIterator it(path, QStringList() << "*.pdf", QDir::Files, QDirIterator::Subdirectories);
+    while (it.hasNext()) {
+        qDebug() << it.filePath();
+        it.next();
+        collection.addRow(it.filePath());
+    }
+        
+    appCache.writeAll(collection);
 }
 
 void State::deleteOne(QString path) {

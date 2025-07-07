@@ -8,7 +8,12 @@
                 "/opt/homebrew/Cellar/qt/6.9.0/lib/QtGui.framework/Versions/A/Headers",
                 "/opt/homebrew/Cellar/qt/6.9.0/lib/QtCore.framework/Versions/A/Headers",
                 "/opt/homebrew/Cellar/qt/6.9.0/lib/QtPdf.framework/Versions/A/Headers",
-                "/opt/homebrew/Cellar/qt/6.9.0/lib/QtConcurrent.framework/Versions/A/Headers"
+                "/opt/homebrew/Cellar/qt/6.9.0/lib/QtConcurrent.framework/Versions/A/Headers",
+                "/opt/homebrew/Cellar/qt/6.9.1/lib/QtCore.framework/Versions/A/Headers",
+                "/opt/homebrew/Cellar/qt/6.9.1/lib/QtWidgets.framework/Versions/A/Headers",
+                "/opt/homebrew/Cellar/qt/6.9.1/lib/QtGui.framework/Versions/A/Headers",
+                "/opt/homebrew/Cellar/qt/6.9.1/lib/QtPdf.framework/Versions/A/Headers",
+                "/opt/homebrew/Cellar/qt/6.9.1/lib/QtConcurrent.framework/Versions/A/Headers"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

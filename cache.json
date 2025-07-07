@@ -1,11 +1,76 @@
 {
     "collection": {
+        "/Users/tkmaher/Desktop/pdf/(Studies in the History of the Language Sciences) Bernd Naumann, Frans Plank, Gottfried Hofbauer - Language and Earth_ Effective Affinities Between the Emerging Sciences of Linguistics and Geology-Joh.pdf": {
+            "data": [
+                "Filename\t(Studies in the History of the Language Sciences) Bernd Naumann, Frans Plank, Gottfried Hofbauer - Language and Earth_ Effective Affinities Between the Emerging Sciences of Linguistics and Geology-Joh.pdf",
+                "Pages\t462",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                    "Title\tLanguage and earth",
+                    "Subtitle\teffective affinities between the emerging sciences of linguistics and geology",
+                    "Author\tFrans Plank\t",
+                    "Series\t",
+                    "Publisher\tJ. Benjamins\tJohn Benjamins Publishing Company\t",
+                    "Publish location\tAmsterdam\tPhiladellphia\t",
+                    "Year\t1992",
+                    "Subject\tLinguistics\tHistory\tEarth sciences\tGeology, history\t",
+                    "Languages\t/languages/eng\t"
+                ],
+                "type": 2
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/(Studies in the History of the Language Sciences) Bernd Naumann, Frans Plank, Gottfried Hofbauer - Language and Earth_ Effective Affinities Between the Emerging Sciences of Linguistics and Geology-Joh.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/10.4159_9780674020702-025 2.pdf": {
+            "data": [
+                "Filename\t10.4159_9780674020702-025 2.pdf",
+                "Pages\t28",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/10.4159_9780674020702-025 2.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/10689.4842_text.pdf": {
+            "data": [
+                "Filename\t10689.4842_text.pdf",
+                "Pages\t484",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/10689.4842_text.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/9780822398516-004.pdf": {
+            "data": [
+                "Filename\t9780822398516-004.pdf",
+                "Pages\t34",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/9780822398516-004.pdf"
+        },
         "/Users/tkmaher/Desktop/pdf/Athanasius_Kirchers_Mundus_subterraneus.pdf": {
             "data": [
                 "Filename\tAthanasius_Kirchers_Mundus_subterraneus.pdf",
                 "Pages\t39",
-                "Date Added\t06-25-2025",
-                "Date Modified\t06-25-2025"
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
             ],
             "parent": {
                 "data": [
@@ -13,6 +78,192 @@
                 "type": 1
             },
             "path": "/Users/tkmaher/Desktop/pdf/Athanasius_Kirchers_Mundus_subterraneus.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/Berkeley George - Three Dialogues between Hylas and Philonous.pdf": {
+            "data": [
+                "Filename\tBerkeley George - Three Dialogues between Hylas and Philonous.pdf",
+                "Pages\t69",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/Berkeley George - Three Dialogues between Hylas and Philonous.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/Milton_Lycidas.pdf": {
+            "data": [
+                "Filename\tMilton_Lycidas.pdf",
+                "Pages\t5",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/Milton_Lycidas.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/Raine-IntroductionMatsumotoToshio-2012.pdf": {
+            "data": [
+                "Filename\tRaine-IntroductionMatsumotoToshio-2012.pdf",
+                "Pages\t5",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/Raine-IntroductionMatsumotoToshio-2012.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/TYWI66HZQGZUJGFREZLY.pdf": {
+            "data": [
+                "Filename\tTYWI66HZQGZUJGFREZLY.pdf",
+                "Pages\t448",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                    "Title\tThe third wave",
+                    "Subtitle\t",
+                    "Author\tAlvin Toffler\t",
+                    "Series\t",
+                    "Publisher\tBantam Books\t",
+                    "Publish location\tToronto\tNew York\t",
+                    "Year\t1981",
+                    "Subject\tModern Civilization\tSocial change\tSocial history\tHistoire sociale\tMudanca Social\tToekomstverwachtingen\tChangement social\tSociale verandering\tCivilisation\tPrévision démographique\tCivilisation moderne\t1945-\t1950-\tZukunft\tIndustriegesellschaft\tSociology\tUnited states, social conditions, 1960-\tTechnology, social aspects\t",
+                    "Languages\t/languages/eng\t"
+                ],
+                "type": 2
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/TYWI66HZQGZUJGFREZLY.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/The Lotus Sutra - Tsugunari Kubo.pdf": {
+            "data": [
+                "Filename\tThe Lotus Sutra - Tsugunari Kubo.pdf",
+                "Pages\t371",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                    "Title\tThe Lotus Sutra (Bdk English Tripitaka)",
+                    "Subtitle\t",
+                    "Author\tTsugunari Kubo\tAkira Yuyama\t",
+                    "Series\t",
+                    "Publisher\tNumata Center for Buddhist Translation and Research\tBDK America\t",
+                    "Publish location\t",
+                    "Year\tMarch 23, 2007",
+                    "Subject\tBuddhism, sacred books\tSutras\t",
+                    "Languages\t/languages/eng\t"
+                ],
+                "type": 2
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/The Lotus Sutra - Tsugunari Kubo.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/WisdomoftheEast_10210168.pdf": {
+            "data": [
+                "Filename\tWisdomoftheEast_10210168.pdf",
+                "Pages\t58",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/WisdomoftheEast_10210168.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/Xia-GuChengsYinger-1998.pdf": {
+            "data": [
+                "Filename\tXia-GuChengsYinger-1998.pdf",
+                "Pages\t15",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/Xia-GuChengsYinger-1998.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/baudelaire-fleurs.pdf": {
+            "data": [
+                "Filename\tbaudelaire-fleurs.pdf",
+                "Pages\t558",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/baudelaire-fleurs.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/lu-xun-diary-of-a-mad-man-1918.pdf": {
+            "data": [
+                "Filename\tlu-xun-diary-of-a-mad-man-1918.pdf",
+                "Pages\t8",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/lu-xun-diary-of-a-mad-man-1918.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/pdfcoffee.com-dean-blunt-quotto-live-amp-die-in-e5quot-the-wire-september-2014-367.PDP.PDF": {
+            "data": [
+                "Filename\tpdfcoffee.com-dean-blunt-quotto-live-amp-die-in-e5quot-the-wire-september-2014-367.PDP.PDF",
+                "Pages\t8",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/pdfcoffee.com-dean-blunt-quotto-live-amp-die-in-e5quot-the-wire-september-2014-367.PDP.PDF"
+        },
+        "/Users/tkmaher/Desktop/pdf/the_flowers_of_evil.pdf": {
+            "data": [
+                "Filename\tthe_flowers_of_evil.pdf",
+                "Pages\t40",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/the_flowers_of_evil.pdf"
+        },
+        "/Users/tkmaher/Desktop/pdf/writings/dj systems.pdf": {
+            "data": [
+                "Filename\tdj systems.pdf",
+                "Pages\t7",
+                "Date Added\t07-07-2025",
+                "Date Modified\t07-07-2025"
+            ],
+            "parent": {
+                "data": [
+                ],
+                "type": 1
+            },
+            "path": "/Users/tkmaher/Desktop/pdf/writings/dj systems.pdf"
         }
     }
 }

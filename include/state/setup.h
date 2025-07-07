@@ -31,6 +31,8 @@ private:
 
     void importOne();
 
+    void importMany();
+
     void deleteOne(QString path);
 
     void showInFolder(const QString& path);
